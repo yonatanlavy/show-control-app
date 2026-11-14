@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Show Control cue mark</title>
+  <rect x="16" y="22" width="128" height="116" rx="26" fill="#121722" stroke="#3C4658" stroke-width="4"/>
+  <path d="M45 55h48M45 80h33M45 105h48" fill="none" stroke="#EDF2F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="m101 67 25 13-25 13z" fill="#76A8FF"/>
+</svg>

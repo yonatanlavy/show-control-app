@@ -1,0 +1,19 @@
+PASS Cancel returns while actual initializer dependency is blocked
+PASS History returns while actual initializer dependency is blocked
+PASS Complete actual initialization remains serialized
+PASS Cancelled search stops after initialization before URL work
+PASS Cancelled worker stops after initialization before URL work
+PASS Already cancelled search does not initialize or perform URL work
+PASS Already cancelled worker does not initialize or perform URL work
+PASS Search normalizes UnknownHostException to DOWNLOAD_SOURCE_FAILED and releases ownership
+PASS Search normalizes IllegalStateException to DOWNLOAD_SOURCE_FAILED and releases ownership
+PASS Search normalizes IllegalArgumentException to DOWNLOAD_URL and releases ownership
+PASS Search normalizes IllegalStateException to DOWNLOAD_TIMEOUT and releases ownership
+PASS Search normalizes IllegalStateException to DOWNLOAD_STORAGE and releases ownership
+PASS Search normalizes IllegalStateException to DOWNLOAD_RUNTIME_MISSING and releases ownership
+PASS Search normalizes IllegalStateException to DOWNLOAD_CANCELLED and releases ownership
+PASS Search normalizes IllegalStateException to DOWNLOAD_FUTURE_CODE and releases ownership
+PASS Accepted Cancel takes precedence over an uncoded lookup failure
+casesPassed=16
+casesFailed=0
+{"androidPath":"C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-downloads\\android\\src\\main\\java\\app\\showcontrol\\downloads\\DownloadRuntime.kt","sourceSha256":"9BAC1CC9ABC8FA1F84320831DE950EBAD6D3F8E4AC7F69AB382ADFDAB4951BF9","actualMethods":{"initRuntime":"DDF4F64480D4DE0B953E8EAD548C3C8BB4723F3E844E9789255115B3A14A3F12","cancel":"970D33569C760AFB904B86A57F231760BF7138E5CA8CA44385D84DACD7C826F3","jobs":"B021337741DA75F54F553197293E707444B2F0280A182A7FE7AA31F9C5C4DBFB","search":"A841040BFEA4CF348FA8FA85CB5D3E3204D277CF1510F492F3093759182C7C78","execute":"ED70B95147D9800F8017582C6557DADE8C5099EBDE3462F925DD8FBDA5FA23B4","requireNotCancelled":"3C27C9BCA36383E1D67DC1D453D0E4588514EF5BFAB5547DBDEFC17C0BDD11F0"},"passed":16,"failed":0,"compileExitCode":0,"runExitCode":0,"output":"C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\.native-check\\download-initialization-source-Vv1xU3","evidence":"Actual Kotlin monitor methods and search/worker consumer bodies; JVM lock ownership; modeled initializer dependency; cancellation URL/process adapters fail if reached","limits":"No Android APK executed, no native network/file runtime extraction benchmark, no ANR or cold-start attribution, no iOS claim"}

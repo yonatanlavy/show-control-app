@@ -1,0 +1,10 @@
+PASS committed completion supersedes repeated late Cancel without an existing staging file
+PASS Cancel after completion and repeated completion remain idempotent
+PASS old ready rows work and old cancelled/malformed provenance fail closed
+PASS cancellation of active, incomplete and failed jobs cannot become attachment
+PASS wrong, missing, fractional, nonnumeric and oversized finished metadata fails closed
+PASS caller-provided finished metadata and provenance are stripped before registration
+PASS unknown completion cannot create or alter a job
+PASS notification Cancel affects active transfer only, ignoring terminal/unknown and unrelated jobs
+PASS service lifecycle stops idle/current work at latest start ID and rejects stale/destroyed worker cleanup
+{"androidPath":"C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-downloads\\android\\src\\main\\java\\app\\showcontrol\\downloads\\DownloadRuntime.kt","servicePath":"C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-downloads\\android\\src\\main\\java\\app\\showcontrol\\downloads\\ShowDownloadService.kt","iosPath":"C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-downloads\\ios\\ShowDownloadsModule.swift","cases":9,"actualMethodsExecuted":true,"iosPolicyChecked":true,"ioAdapters":"observable doubles; owned absent fixture paths","androidApkExecuted":false,"iosCompiled":false,"output":"C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\.native-check\\download-completion-source-DI2Avt"}

@@ -1,0 +1,9 @@
+plugins { id 'com.android.library'; id 'expo-module-gradle-plugin' }
+group = 'app.showcontrol.voice'
+version = '0.2.0'
+android {
+  namespace 'app.showcontrol.voice'
+  ndkVersion rootProject.ext.ndkVersion
+  defaultConfig { minSdkVersion 24; versionCode 1; versionName '0.2.0'; externalNativeBuild { cmake { cppFlags '-std=c++17'; arguments '-DANDROID_STL=c++_shared' } } }
+  externalNativeBuild { cmake { path 'src/main/cpp/CMakeLists.txt'; version '3.22.1' } }
+}

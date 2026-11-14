@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.showcontrol.keyboardtextprobe">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+  <application android:label="Keyboard text QA" android:allowBackup="false" />
+  <instrumentation android:name="app.showcontrol.keyboardtextprobe.KeyboardTextProbe" android:targetPackage="app.showcontrol.working" android:functionalTest="true" android:handleProfiling="false" />
+</manifest>

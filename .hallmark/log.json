@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-08-12",
+    "macrostructure": "Workbench",
+    "theme": "Midnight",
+    "enrichment": "none",
+    "brief": "Offline show-control stage instrument for solo performers",
+    "critique": {
+      "personality": 5,
+      "hierarchy": 5,
+      "execution": 4,
+      "simplicity": 5,
+      "responsiveness": 5,
+      "userValue": 5
+    },
+    "contrast": {
+      "status": "pass",
+      "minimumCheckedRatio": 6.89
+    },
+    "slopTest": "pass for applicable native-app gates",
+    "staticWidths": [320, 375, 414, 768],
+    "physicalVisualReview": "pending real iOS and Android devices"
+  }
+]

@@ -1,0 +1,77 @@
+
+> show-control-app@0.1.0 verify C:\Users\Administrator\Documents\ChatGPT\Computer Use\show-control-oms
+> pnpm run typecheck && pnpm run lint && pnpm run test && pnpm run test:architecture && pnpm run check:translations && node scripts/generate-tokens.mjs --check && pnpm dlx expo-doctor
+
+
+> show-control-app@0.1.0 typecheck C:\Users\Administrator\Documents\ChatGPT\Computer Use\show-control-oms
+> tsc --noEmit
+
+
+> show-control-app@0.1.0 lint C:\Users\Administrator\Documents\ChatGPT\Computer Use\show-control-oms
+> eslint . --max-warnings=0
+
+
+> show-control-app@0.1.0 test C:\Users\Administrator\Documents\ChatGPT\Computer Use\show-control-oms
+> jest --runInBand
+
+PASS src/ui/__tests__/stopwatch.test.tsx
+PASS src/ui/__tests__/startup-navigation.test.tsx
+PASS src/ui/__tests__/oms.test.tsx
+PASS src/ui/__tests__/setup-recovery.test.tsx
+PASS src/ui/__tests__/promotion.test.tsx
+PASS tests/architecture/contracts.test.ts
+PASS tests/storage/media-files.test.ts
+PASS tests/storage/store-recovery.test.ts
+PASS src/ui/__tests__/system.test.tsx
+PASS tests/storage/library.test.ts
+PASS src/ui/__tests__/preflight-state.test.tsx
+PASS src/ui/__tests__/arm-flow.test.tsx
+PASS tests/storage/base-translations.test.ts
+PASS tests/runtime/show-session.test.ts
+PASS tests/domain/ai-operations.test.ts
+PASS tests/domain/ai-provider.test.ts
+PASS tests/runtime/critical-preparation.test.ts
+PASS tests/domain/oms-schema.test.ts
+PASS tests/domain/domain.test.ts
+PASS src/ui/__tests__/native-scene-config.test.ts
+PASS tests/domain/voice-setup.test.ts
+PASS tests/controllers/compound.test.ts
+
+Test Suites: 22 passed, 22 total
+Tests:       176 passed, 176 total
+Snapshots:   0 total
+Time:        9.786 s, estimated 11 s
+Ran all test suites.
+
+> show-control-app@0.1.0 test:architecture C:\Users\Administrator\Documents\ChatGPT\Computer Use\show-control-oms
+> jest tests/architecture --runInBand
+
+PASS tests/architecture/contracts.test.ts
+  command and controller boundaries
+    √ suppresses bounce duplicates and gives panic priority over queued work (2 ms)
+    √ validates safety bindings and ignores key-up/repeat events
+  offline storage and import
+    √ configures SQLite before applying sequential migrations transactionally
+    √ returns defensive copies from the in-memory repository
+    √ preserves reused canonical media when metadata persistence fails (3 ms)
+    √ deduplicates by checksum before committing a second canonical file
+    √ rejects a commit that cannot attest app ownership, bytes, and checksum
+  showbundle and promotion isolation
+    √ accepts exact archives and rejects traversal, future schema, and bombs (3 ms)
+    √ rejects hostile numeric metadata, reserved manifest payloads, and local paths (1 ms)
+    √ rejects invalid cue references and missing portable controller profiles
+    √ filters time-boxed promos without involving playback state (8 ms)
+    √ rejects unsafe promotion URLs and enforces an optional first-party host allowlist
+
+Test Suites: 1 passed, 1 total
+Tests:       12 passed, 12 total
+Snapshots:   0 total
+Time:        0.807 s, estimated 1 s
+Ran all test suites matching /tests\\architecture/i.
+
+> show-control-app@0.1.0 check:translations C:\Users\Administrator\Documents\ChatGPT\Computer Use\show-control-oms
+> node scripts/check-translations.mjs
+
+Translation parity passed for 319 messages and native OS copy in all ten languages.
+Running 21 checks on your project...
+21/21 checks passed. No issues detected!

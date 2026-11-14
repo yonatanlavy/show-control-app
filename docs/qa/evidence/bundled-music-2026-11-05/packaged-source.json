@@ -1,0 +1,34 @@
+[
+  {
+    "path": "modules/show-downloads/index.ts",
+    "sha256": "BE87F2BBC8B59C31EAE92FE4EE83A1E9AD57017F0CC19C99234425B1CE617238"
+  },
+  {
+    "path": "src/music/included-library.ts",
+    "sha256": "0176BCCCAC11F87BE77DA03769D0B92CEE536BC3ED92D9C734301CFC44E42BED"
+  },
+  {
+    "path": "src/ui/IncludedMusicPanel.tsx",
+    "sha256": "FB65F37C7A2CDF6F97444D5D3EEC5305DB19383408537D02C67BB25DB1036FA1"
+  },
+  {
+    "path": "src/ui/library-screens.tsx",
+    "sha256": "019D39D698A63DE9BC5C08BB00B8E5B44F45ADBE535B4877533D4E07FF768F92"
+  },
+  {
+    "path": "src/storage/backup-progress.ts",
+    "sha256": "164239532156C2B664FBBC0AFEF32638215B18B422CDA84C20209FA1EC7849C0"
+  },
+  {
+    "path": "src/storage/backup.ts",
+    "sha256": "BA2DCB2BF5B8868DA9F4AA4014DEE93C7447BA8A50E599E782797E7A68566987"
+  },
+  {
+    "path": "src/storage/sqlite.ts",
+    "sha256": "4F85701959E73A3D35BE7613922D8473ED8EB645B827AB6BE17E0985C41D7C83"
+  },
+  {
+    "path": "src/i18n/usability-library-messages.ts",
+    "sha256": "657B5718F2440014179EFDA89C72BBC8322B6CB7B4614015FCC2121FB532FC29"
+  }
+]

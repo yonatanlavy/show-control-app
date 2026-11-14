@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="showcontrol_voice_channel_name">التحكم الصوتي المحلي</string>
+  <string name="showcontrol_voice_armed_body">التحكم بالميكروفون المحلي جاهز</string>
+</resources>

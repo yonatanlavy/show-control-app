@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'expo-module-gradle-plugin'
+group = 'app.showcontrol.downloads'
+version = '0.1.0'
+android {
+  namespace 'app.showcontrol.downloads'
+  defaultConfig { minSdkVersion 24; versionCode 1; versionName '0.1.0' }
+  lint { abortOnError true; warningsAsErrors true }
+}
+dependencies {
+  implementation 'io.github.junkfood02.youtubedl-android:library:0.18.1'
+  implementation 'io.github.junkfood02.youtubedl-android:ffmpeg:0.18.1'
+}
+def pinnedDownloader = tasks.register('preparePinnedDownloader', Exec) {
+  def repository = rootProject.projectDir.parentFile
+  inputs.file(new File(repository, 'modules/show-downloads/runtime-lock.json'))
+  inputs.file(new File(repository, 'scripts/prepare-downloader.mjs'))
+  outputs.file(new File(projectDir, 'src/main/assets/showcontrol-yt-dlp'))
+  commandLine 'node', new File(repository, 'scripts/prepare-downloader.mjs').absolutePath
+}
+tasks.named('preBuild').configure { dependsOn pinnedDownloader }
+
+def includedMusic = tasks.register('prepareIncludedMusic', Exec) {
+  def repository = rootProject.projectDir.parentFile
+  def includeMusic = System.getenv('SHOW_CONTROL_INCLUDE_MUSIC') == '1'
+  inputs.property('includeMusic', includeMusic)
+  inputs.file(new File(repository, 'scripts/prepare-included-music.mjs'))
+  if (includeMusic) inputs.dir(new File(repository, 'music-library'))
+  outputs.dir(new File(projectDir, 'src/main/assets/showcontrol-music'))
+  commandLine 'node', new File(repository, 'scripts/prepare-included-music.mjs').absolutePath, includeMusic ? '--include' : '--exclude'
+}
+tasks.named('preBuild').configure { dependsOn includedMusic }

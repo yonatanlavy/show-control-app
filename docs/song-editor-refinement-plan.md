@@ -1,0 +1,11 @@
+# Song editor refinement · 14 October 2026
+
+The owner supplied an OMS per-song editor reference. Refine the real Builder song editor, retaining Show Control's identity and immutable Run safety. Reuse native components and semantic tokens; no decorative animation or new dependency.
+
+1. Extract a focused editor with an artwork-led summary, durable saving state, readable source-time waveform, isolated preview transport, and clear Sound / Timing / Stage sections. Keep direct volume and speed controls available and disclose advanced settings progressively.
+2. Show units and precise values beside every slider. Trim/seek use source time; fades/delays use real time. Preview fade-out near the trimmed ending, clamp seek after trim changes, and use native preview events for progress, pause and completion. Native audition skips delay, loop and automatic following consistently on both platforms. Test full delay/crossfade behavior through Rehearsal.
+3. Preserve independent autosaved settings and deliberate name/notes saves. Make pending, saved, unsaved and failed states explicit. Guard rapid saves, leaving during writes, stale callbacks, disappearing assets, and cancelled pickers. Cover selection accepts images only; attaching and removing media remains deliberate.
+4. Include cover/visual thumbnails, per-song voice-rule summaries, color tags, 26 categories, and guarded links to voice/cover tools and Rehearsal. Routing stops previews before leaving. No AI provider requests during validation.
+5. Verify types, lint, architecture/unit regressions, all ten translation dictionaries and token parity. Compile Android native changes, export the production bundle, exercise native preview and editor workflows on the emulator in English/Hebrew, large text and landscape. Record iOS/Xcode, physical audio, HDMI and screen-reader gates honestly. Preserve the existing music library.
+
+Public changes are additive isolated-preview state/pause/resume contracts. Persisted song/schema and live transport semantics stay compatible. Each platform supplies preview state without publishing Run or audience-display events. Safe fallback is Stop preview, return to playlist and rehearse the committed revision.

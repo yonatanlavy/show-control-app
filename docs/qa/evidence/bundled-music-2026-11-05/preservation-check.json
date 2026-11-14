@@ -1,0 +1,20 @@
+{
+  "verifiedUtc": "2026-11-05T14:25:21.7713084+00:00",
+  "apkSha256": "0085AED513FA4F444E2F760F96D32A001FDE4E35E4A72FAC239E124D9F4C716D",
+  "music": [
+    {
+      "creditsPresent": true,
+      "root": "C:\\dev\\personal\\show-control-app\\music-library",
+      "songs": 170,
+      "archives": 3,
+      "allChecksumsMatch": true
+    },
+    {
+      "creditsPresent": true,
+      "root": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-music-library",
+      "songs": 170,
+      "archives": 3,
+      "allChecksumsMatch": true
+    }
+  ]
+}

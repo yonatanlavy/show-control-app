@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-14",
+  "scope": "Published music identifications and first-person audience reports, excluding the bespoke McFly Enigma song. References are not included in the MP3 count unless a separately verified recording license permits it.",
+  "statusKey": {
+    "fan-identification": "Fan archive identification; not a production credit or independently confirmed recording version.",
+    "audience-report": "An audience member names a song; production-wide use and the recording version remain unconfirmed.",
+    "audience-palette": "An eyewitness describes the musical sound but does not identify a track.",
+    "unresolved-guess": "A commenter proposes an identification without corroboration. Do not treat it as established.",
+    "artist-context": "Artist-hosted or first-person context informs programming; it does not establish a show soundtrack."
+  },
+  "items": [
+    {
+      "id": "beethoven-contrast", "title": "Piano Concerto No. 5, Op. 73 — II. Adagio un poco mosso", "artist": "Ludwig van Beethoven", "production": "Something Wicked This Way Comes; also Trick of the Mind, series 1", "medium": "televised stage / television", "status": "fan-identification", "sourceUrl": "https://www.rmjs.co.uk/derrenbrown/tv_specials_something_wicked_this_way_comes.php", "corroboratingUrl": "https://www.rmjs.co.uk/derrenbrown/tv_series_trick_of_the_mind_1.php", "finding": "The fan archive places this calm classical movement beside the blockhead sequence. The exact recording is not identified.", "programming": "Calm music can contrast with an extraordinary physical image; suspense does not always require an ominous beat.", "licensedAlternatives": ["Gymnopedie No. 1", "Promises to Keep", "Man Down"], "downloadedReference": false
+    },
+    {
+      "id": "svengali-swing", "title": "Unidentified vintage swing with a modern twist", "artist": "Unidentified", "production": "Svengali, 2012", "medium": "stage pre-show", "status": "audience-palette", "sourceUrl": "https://derrenbrown.co.uk/video-2-svengali-london-2012/", "finding": "June 7 and June 13 audience comments ask about the pre-show tracks; one describes a 1950s swing sound updated for a modern audience. No title is supplied.", "programming": "A welcoming vintage lounge palette for arrival, social mixing, and walk-up.", "licensedAlternatives": ["No Good Layabout", "Night in Venice", "Deuces"], "downloadedReference": false
+    },
+    {
+      "id": "get-happy", "title": "Get Happy", "artist": "Judy Garland (as reported)", "production": "Only Human", "medium": "stage pre-show", "status": "audience-report", "sourceUrl": "https://www.reddit.com/r/derrenbrown/comments/1mg3pf6/unfair_criticism/", "finding": "A viewer reports hearing this song before one performance and explicitly says they do not know whether other performances used the same music.", "programming": "Bright old-showbiz warmth can welcome an audience before the evening becomes strange.", "licensedAlternatives": ["Opportunity Walks", "Poppers and Prosecco", "Montauk Point"], "downloadedReference": false
+    },
+    {
+      "id": "thats-life", "title": "That's Life", "artist": "Recording version unresolved", "production": "Showman, televised performance discussed in January 2024", "medium": "televised stage / closing music", "status": "audience-report", "sourceUrl": "https://www.reddit.com/r/derrenbrown/comments/1aciahv", "finding": "A viewer names the song at the ending and asks about the distinctive trumpet outro. Replies do not establish a reliable recording version.", "programming": "A confident, humane walk-off after the last evidence can release a serious scene.", "licensedAlternatives": ["Poppers and Prosecco", "Clear Air", "Reunited"], "downloadedReference": false
+    },
+    {
+      "id": "showman-strings", "title": "Unidentified low string passage; Funeral March suggested", "artist": "Unidentified; Chopin is an unverified guess", "production": "Showman, July 2022 audience discussion", "medium": "stage", "status": "unresolved-guess", "sourceUrl": "https://www.mumsnet.com/talk/_chat/4584492-derren-brown-showman", "finding": "An audience member describes the string atmosphere; a reply guesses Chopin's Funeral March. The guess is not corroborated.", "programming": "Use a restrained string atmosphere if the scene calls for weight; do not label the guess as a confirmed soundtrack cue.", "licensedAlternatives": ["Man Down", "Immersed"], "downloadedReference": false
+    },
+    {
+      "id": "miracle-organ", "title": "Unidentified motivational and gospel-organ textures", "artist": "Unidentified", "production": "Miracle", "medium": "stage", "status": "audience-palette", "sourceUrl": "https://www.premierchristianity.com/interviews/derren-brown-the-miracle-maker-reveals-his-christian-past/3718.article", "finding": "The firsthand account describes motivational music and organ backing but names no recordings.", "programming": "A deliberately framed theatrical scene can use a contrasting gospel or communal palette. It is not a reason to score private testimony.", "licensedAlternatives": ["Amazing Grace 2011", "Reunited"], "downloadedReference": false
+    },
+    {
+      "id": "third-man", "title": "The Third Man Theme", "artist": "Anton Karas", "production": "Trick of the Mind, series 3", "medium": "television soundtrack", "status": "fan-identification", "sourceUrl": "https://www.rmjs.co.uk/derrenbrown/tv_series_trick_of_the_mind_3.php", "finding": "The fan archive identifies the film theme alongside the Vienna wheel sequence. This is a TV music reference, not evidence of stage use.", "programming": "Place, period, and an unusual instrumental color can give a time-themed scene its identity.", "licensedAlternatives": ["Finding Movement", "Night in Venice"], "downloadedReference": false
+    },
+    {
+      "id": "shining-through", "title": "It's Up to You (Shining Through)", "artist": "Layo & Bushwacka!", "production": "Trick of the Mind, series 1", "medium": "television soundtrack", "status": "fan-identification", "sourceUrl": "https://www.rmjs.co.uk/derrenbrown/tv_series_trick_of_the_mind_1.php", "finding": "The fan archive names this electronic track in its episode music notes. A stage use is not established.", "programming": "A controlled electronic groove can support visible action or arrangement without becoming a reveal sting.", "licensedAlternatives": ["Half Mystery", "Envision", "Impact Prelude"], "downloadedReference": false
+    },
+    {
+      "id": "can-you-feel-it", "title": "Can You Feel It", "artist": "The Jacksons", "production": "The Heist", "medium": "television; plot-specific song", "status": "fan-identification", "sourceUrl": "https://www.rmjs.co.uk/derrenbrown/tv_specials_the_heist.php", "finding": "The fan archive identifies the recurring song. Its narrative use is more specific than a neutral atmospheric bed.", "programming": "A motif can return with new meaning. Choose an original cue for your own narrative rather than copying the programme's association.", "licensedAlternatives": ["Air Hockey Saloon", "Deuces"], "downloadedReference": false
+    },
+    {
+      "id": "classical-conducting", "title": "Die Fledermaus Overture; La Traviata Act I Prelude; Music for the Royal Fireworks Overture; Beethoven Symphony No. 9 finale", "artist": "Strauss II; Verdi; Handel; Beethoven", "production": "Trick of the Mind, series 1", "medium": "television routine content", "status": "fan-identification", "sourceUrl": "https://www.rmjs.co.uk/derrenbrown/tv_series_trick_of_the_mind_1.php", "finding": "These are identified as pieces involved in conducting demonstrations, rather than four atmospheric stage beds. They are not counted as additions.", "programming": "Keep routine-content music distinct from incidental scoring.", "licensedAlternatives": ["Danse Macabre"], "downloadedReference": false
+    },
+    {
+      "id": "minimal-direction", "title": "Quiet Bach while writing", "artist": "Bach, no work or recording specified", "production": "Derren's description of his writing environment", "medium": "personal practice; not show use", "status": "artist-context", "sourceUrl": "https://derrenbrown.co.uk/category/blog/derren-brown/page/34/", "finding": "His own blog describes barely audible Bach as part of a writing setup. It does not identify show music.", "programming": "The restrained treatment of concentration beds is our programming inference, not a historical soundtrack claim.", "licensedAlternatives": ["Cylinder One", "Cylinder Two", "Oxygen Garden"], "downloadedReference": false
+    },
+    {
+      "id": "asi-intimacy", "title": "Inner Circle's intimate table setting", "artist": "Asi Wind; review by Alexis Soloski", "production": "Inner Circle, review dated January 30, 2023", "medium": "artist-hosted theatre review", "status": "artist-context", "sourceUrl": "https://www.asiwindstore.com/nyt-review", "finding": "The artist-hosted review describes a close, conversational card-magic setting but identifies no music tracks.", "programming": "Our ten additions suit intimate interaction and specific effects requested by the owner. They are not presented as music used by Asi.", "licensedAlternatives": ["Cool Vibes", "Avec Soin", "Facile", "Danse Morialta"], "downloadedReference": false
+    }
+  ],
+  "identificationMethod": "The Richard Shakeshaft archive says its music identifications were assembled from fan contributions and ear-based identification. A listing is a useful lead, not a production music credit. See https://www.rmjs.co.uk/derrenbrown/tv.php .",
+  "conclusion": "The public sources support a handful of named music leads and several palette observations, not 50 verified atmosphere tracks used onstage. The 60 Derren additions are transparently labeled style recommendations. No production-confirmed recording claim is made.",
+  "exclusions": ["The bespoke McFly song used for Enigma's finale", "A TVForum Clubbed to Death identification concerns a Newsnight report about a Derren-style character, not a Derren production", "Uncorroborated Funeral March guesses are not promoted to confirmed identifications", "No specific soundtrack is attributed to Asi Wind without evidence"]
+}

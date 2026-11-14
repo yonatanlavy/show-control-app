@@ -1,0 +1,229 @@
+{
+  "createdAt": "2026-10-13T21:34:20.303991+00:00",
+  "downloads": "170/170 completed via yt-dlp from official composer URLs",
+  "fullDecode": "170/170 passed",
+  "uniqueAudioHashes": 170,
+  "derrenRecommendations": 60,
+  "asiRecommendations": 10,
+  "totalMp3Bytes": 1326556245,
+  "bundle": {
+    "archive": "Show-Control-Magic-Music-170.zip",
+    "bytes": 1328348328,
+    "sha256": "8bb7f7c3bf932162f8615ea66e7c2452a5a21782ce838b0bcde30b2c4b691101",
+    "mediaFiles": 170,
+    "artworkFiles": 20,
+    "shows": 1,
+    "playlists": 20
+  },
+  "additionsBundle": {
+    "archive": "Show-Control-Atmosphere-Additions-70.zip",
+    "bytes": 608901259,
+    "sha256": "ee44df863e74ed2a619b49676fda498da1db2c4bca530c7f6a3c9a607fbea512",
+    "mediaFiles": 70,
+    "artworkFiles": 7,
+    "shows": 1,
+    "playlists": 7
+  },
+  "appDomainValidation": {
+    "status": "passed",
+    "full": {
+      "status": "passed",
+      "archive": "Show-Control-Magic-Music-170.zip",
+      "appSource": "C:\\dev\\personal\\show-control-app",
+      "inspector": "src/storage/zip.ts",
+      "manifestValidator": "src/storage/library-bundle.ts",
+      "entries": 191,
+      "crcAndShaPayloads": 190,
+      "playlistsCompiled": 20,
+      "uniqueMusicFiles": 170,
+      "manualDefaults": "170/170 passed",
+      "credits": "170/170 present"
+    },
+    "additions": {
+      "status": "passed",
+      "archive": "Show-Control-Atmosphere-Additions-70.zip",
+      "appSource": "C:\\dev\\personal\\show-control-app",
+      "inspector": "src/storage/zip.ts",
+      "manifestValidator": "src/storage/library-bundle.ts",
+      "entries": 78,
+      "crcAndShaPayloads": 77,
+      "playlistsCompiled": 7,
+      "uniqueMusicFiles": 70,
+      "manualDefaults": "70/70 passed",
+      "credits": "70/70 present"
+    },
+    "originalFilesAndNumbersPreserved": 100
+  },
+  "nativeImport": {
+    "status": "passed",
+    "device": "Android API 36 emulator (no audio output)",
+    "path": "Settings → Import library backup → Android system file picker",
+    "databaseQuickCheck": "ok",
+    "songs": 70,
+    "media": 70,
+    "playlists": [
+      {
+        "name": "14 · Derren — Welcome & Mischief",
+        "songs": 10
+      },
+      {
+        "name": "15 · Derren — Thought & Choice",
+        "songs": 10
+      },
+      {
+        "name": "16 · Derren — Uncanny & Tension",
+        "songs": 10
+      },
+      {
+        "name": "17 · Derren — Memory & Humanity",
+        "songs": 10
+      },
+      {
+        "name": "18 · Derren — Ritual & Contrast",
+        "songs": 10
+      },
+      {
+        "name": "19 · Derren — Finale & Release",
+        "songs": 10
+      },
+      {
+        "name": "20 · Asi — Intimate Impossibilities",
+        "songs": 10
+      }
+    ],
+    "artwork": 7,
+    "allMediaAppOwned": true,
+    "nativeImportedHashSetMatches": true,
+    "creditsPresent": 70,
+    "originalSongsPreserved": 100,
+    "combinedUniqueRecordings": 170,
+    "existingDocumentsUnchanged": 3,
+    "otherShowsPreserved": 3,
+    "manualDefaults": "70/70 passed",
+    "capturedAt": "2026-10-13T21:44:43.918036+00:00"
+  },
+  "musicalAudition": "Requires rehearsal against the performer's handling and voice",
+  "physicalDevices": "not tested",
+  "aiUsed": false,
+  "assetEdgeChecks": {
+    "exactly 170 distinct titles": "passed",
+    "distinct decoded recording hashes": "passed",
+    "no missing cue numbers": "passed",
+    "all delivered MP3s exist": "passed",
+    "no moving-video or AAC deliverables": "passed",
+    "complete decoder evidence": "passed",
+    "bounded durations": "passed",
+    "supported channel counts": "passed",
+    "supported sample rates": "passed",
+    "finite level measurements": "passed",
+    "attenuation only": "passed",
+    "retained true-peak headroom": "passed",
+    "trim points remain in the source": "passed",
+    "fades fit inside each cue": "passed",
+    "96 finite waveform samples": "passed",
+    "exactly 60 Derren and 10 Asi additions": "passed",
+    "original numbers and files unchanged": "passed",
+    "complete single playlist assignment": "passed",
+    "manual defaults and no queued transitions": "passed",
+    "recording licenses and artist credits": "passed",
+    "Zabriskie album credits": "passed",
+    "no controller credentials or armed voice rules": "passed",
+    "all artwork references resolve": "passed",
+    "70-song subset matches full package": "passed",
+    "UTF-8 names and direction text": "passed"
+  },
+  "nativePreview": {
+    "activeVoicesAfter": 0,
+    "cases": [
+      {
+        "cue": "111 · Cylinder One",
+        "mainShowPrepared": false,
+        "seekAccepted": true,
+        "started": true,
+        "stopped": true,
+        "stoppedStateRestored": true
+      },
+      {
+        "cue": "162 · Cool Vibes",
+        "mainShowPrepared": false,
+        "seekAccepted": true,
+        "started": true,
+        "stopped": true,
+        "stoppedStateRestored": true
+      }
+    ],
+    "coldLaunchAutoResume": false,
+    "coldLaunchPhase": "stopped",
+    "device": "Android API 36 emulator (audio output disabled)",
+    "nativeErrors": 0,
+    "status": "passed"
+  },
+  "browserChecks": {
+    "status": "passed",
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "musicFilters": {
+      "all": 170,
+      "derren": 60,
+      "asi": 10
+    },
+    "effectSearch": "Double Exposure resolves to the refined Asi selections",
+    "researchCards": 12,
+    "creditsDialog": "opens with Close focused",
+    "unusualSearch": "script-looking text and URL produce an empty result; clear restores the collection",
+    "playback": [
+      "162 Cool Vibes: metadata and playback accepted, no media error",
+      "111 Cylinder One: converted MP3 playback accepted, no media error"
+    ],
+    "oneAudioPlayer": true,
+    "horizontalOverflow": false,
+    "limits": "Browser acceptance is not a musical audition against the show or venue."
+  },
+  "cloudAiServicesUsed": false,
+  "testedCombinations": [
+    {
+      "case": "existing 100 + additions 70",
+      "result": "170 unique native recording hashes; all three existing documents unchanged"
+    },
+    {
+      "case": "full 170 + canonical backup schema",
+      "result": "20 playlists compiled; 190 payload CRC/SHA checks passed"
+    },
+    {
+      "case": "additions only + existing app preferences",
+      "result": "separate 70-song show; no playback started; English/Dark Blue defaults documented"
+    },
+    {
+      "case": "converted AAC source + native MP3 preview",
+      "result": "Cylinder One starts, accepts source-time seek, and stops"
+    },
+    {
+      "case": "original MP3 + native MP3 preview",
+      "result": "Cool Vibes starts, accepts source-time seek, and stops"
+    },
+    {
+      "case": "Asi scope + Double Exposure search",
+      "result": "two named scenes return the refined recommendations"
+    },
+    {
+      "case": "small phone viewport + collection controls",
+      "result": "320px and 390px checks show no horizontal overflow"
+    },
+    {
+      "case": "script-looking query + URL + reset",
+      "result": "no inserted script, empty result, clear returns all 170"
+    },
+    {
+      "case": "credits dialog + focus",
+      "result": "Close focused; both composers and Zabriskie album credit guidance present"
+    },
+    {
+      "case": "12 rapid track switches + one player",
+      "result": "last selection 102 No Good Layabout; readyState 4; no media error or error notice"
+    }
+  ],
+  "firstEditionCsvCategoryEncoding": "Known middle-dot encoding defect repaired in the new CSV; original bytes retained in edition backup"
+}

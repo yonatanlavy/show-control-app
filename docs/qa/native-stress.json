@@ -1,0 +1,577 @@
+[
+  [
+    {
+      "case": "ready",
+      "state": {
+        "activeVoiceCount": 0,
+        "countdownRemainingMs": 0,
+        "currentCueId": "",
+        "currentCueIndex": -1,
+        "generation": 4,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "ready",
+        "playbackRate": 1,
+        "revisionId": "panic-revision",
+        "selectedCueId": "a",
+        "setId": "panic-set",
+        "showId": "silent-panic",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "case": "paused-voice",
+      "state": {
+        "activeVoiceCount": 0,
+        "countdownRemainingMs": 0,
+        "currentCueId": "",
+        "currentCueIndex": -1,
+        "generation": 5,
+        "nativeCommandId": 5,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "ready",
+        "playbackRate": 1,
+        "revisionId": "panic-revision",
+        "selectedCueId": "a",
+        "setId": "panic-set",
+        "showId": "silent-panic",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "case": "paused-countdown",
+      "state": {
+        "activeVoiceCount": 0,
+        "countdownRemainingMs": 0,
+        "currentCueId": "",
+        "currentCueIndex": -1,
+        "generation": 8,
+        "nativeCommandId": 9,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "ready",
+        "playbackRate": 1,
+        "revisionId": "panic-revision",
+        "selectedCueId": "a",
+        "setId": "panic-set",
+        "showId": "silent-panic",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    }
+  ],
+  [
+    {
+      "cycle": 0,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 13,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 1,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 18,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 2,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 23,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 3,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 28,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 4,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 33,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 5,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 38,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 6,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 43,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 7,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 48,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 8,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 53,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "cycle": 9,
+      "state": {
+        "activeVoiceCount": 1,
+        "countdownRemainingMs": 0,
+        "currentCueId": "a",
+        "currentCueIndex": 0,
+        "generation": 58,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "playing",
+        "playbackRate": 1,
+        "revisionId": "fixed-revision",
+        "selectedCueId": "a",
+        "setId": "cycle-set",
+        "showId": "owner-cycle",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    }
+  ],
+  {
+    "assertions": [
+      "Manual GO starts autoplay-off incoming once; repeated GO during transition is ignored.",
+      "Previous preserves active and pending same-cue Hits; stale scheduled and captured semantic commands are rejected.",
+      "Stop cancels all current and pending audio; panic fades main and independent Hits to silence.",
+      "Natural completion leaves autoplay-off incoming silent; final completion and GO never wrap.",
+      "Pre-wait pauses without consuming time; GO resumes it once and repeated GO does not advance.",
+      "Automatic crossfade requires incoming autoplay and retains outgoing audio through pre-wait until incoming actual start."
+    ],
+    "events": [
+      {
+        "cueId": "a",
+        "currentCueId": "a",
+        "generation": 76,
+        "mainTransport": true,
+        "observedAt": 1791911697825,
+        "playbackRate": 1,
+        "revisionId": "smoke-1791911697695",
+        "selectedCueId": "a",
+        "setId": "native-smoke-set",
+        "showId": "native-smoke",
+        "type": "VOICE_START",
+        "voiceId": "bfc3bad3-1e0c-4dfc-b2d1-ee9edf3ebc83"
+      },
+      {
+        "cueId": "b",
+        "currentCueId": "b",
+        "generation": 76,
+        "mainTransport": true,
+        "observedAt": 1791911701184,
+        "playbackRate": 1.2,
+        "revisionId": "smoke-1791911697695",
+        "selectedCueId": "b",
+        "setId": "native-smoke-set",
+        "showId": "native-smoke",
+        "type": "VOICE_START",
+        "voiceId": "e96a17c3-516b-4544-94b2-008d4656096a"
+      },
+      {
+        "cueId": "a",
+        "currentCueId": "b",
+        "generation": 76,
+        "mainTransport": true,
+        "observedAt": 1791911701453,
+        "playbackRate": 1.2,
+        "revisionId": "smoke-1791911697695",
+        "selectedCueId": "b",
+        "setId": "native-smoke-set",
+        "showId": "native-smoke",
+        "type": "VOICE_END",
+        "voiceId": "bfc3bad3-1e0c-4dfc-b2d1-ee9edf3ebc83"
+      },
+      {
+        "cueId": "b",
+        "currentCueId": "",
+        "generation": 77,
+        "mainTransport": true,
+        "observedAt": 1791911701629,
+        "playbackRate": 1,
+        "revisionId": "smoke-1791911697695",
+        "selectedCueId": "b",
+        "setId": "native-smoke-set",
+        "showId": "native-smoke",
+        "type": "VOICE_END",
+        "voiceId": "e96a17c3-516b-4544-94b2-008d4656096a"
+      }
+    ],
+    "final": {
+      "activeVoiceCount": 0,
+      "countdownRemainingMs": 0,
+      "currentCueId": "",
+      "currentCueIndex": -1,
+      "generation": 0,
+      "nextCueId": "",
+      "nextCueIndex": 0,
+      "phase": "stopped",
+      "selectedCueId": "",
+      "transportMode": "legacyCueStack",
+      "type": "RUN_STATE"
+    },
+    "persistedMedia": {
+      "channels": 1,
+      "codec": "audio/raw",
+      "durationMs": 30000,
+      "hash": "a79c60a668102d470f4dc35b0a8844750d61e1a9487e7611d2d530bb6589af1c",
+      "sampleRate": 44100
+    }
+  },
+  {
+    "after": {
+      "activeVoiceCount": 0,
+      "countdownRemainingMs": 0,
+      "currentCueId": "",
+      "currentCueIndex": -1,
+      "generation": 0,
+      "nextCueId": "",
+      "nextCueIndex": 0,
+      "phase": "stopped",
+      "selectedCueId": "",
+      "transportMode": "legacyCueStack",
+      "type": "RUN_STATE"
+    },
+    "before": {
+      "activeVoiceCount": 0,
+      "countdownRemainingMs": 0,
+      "currentCueId": "",
+      "currentCueIndex": -1,
+      "generation": 0,
+      "nextCueId": "",
+      "nextCueIndex": 0,
+      "phase": "stopped",
+      "selectedCueId": "",
+      "transportMode": "legacyCueStack",
+      "type": "RUN_STATE"
+    },
+    "rejectedCalls": 24,
+    "rejections": [
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "http://127.0.0.1:1/tone.wav"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "http://127.0.0.1:1/tone.wav"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "http://127.0.0.1:1/tone.wav"
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "https://example.invalid/tone.wav"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "https://example.invalid/tone.wav"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "https://example.invalid/tone.wav"
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "ftp://example.invalid/tone.wav"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "ftp://example.invalid/tone.wav"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "ftp://example.invalid/tone.wav"
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "data:audio/wav;base64,UklGRg=="
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "data:audio/wav;base64,UklGRg=="
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "data:audio/wav;base64,UklGRg=="
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "content://example.invalid/audio/1"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "content://example.invalid/audio/1"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: A local file is required.",
+        "uri": "content://example.invalid/audio/1"
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Media must be app owned.",
+        "uri": "file://"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Media must be app owned.",
+        "uri": "file://"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Media must be app owned.",
+        "uri": "file://"
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Media must be app owned.",
+        "uri": "file:///sdcard/Download/showcontrol-smoke-tone.wav"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Media must be app owned.",
+        "uri": "file:///sdcard/Download/showcontrol-smoke-tone.wav"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Media must be app owned.",
+        "uri": "file:///sdcard/Download/showcontrol-smoke-tone.wav"
+      },
+      {
+        "method": "probeMedia",
+        "reason": "Error: Call to function 'ShowAudio.probeMedia' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Remote file authorities are not local media.",
+        "uri": "file://example.invalid/data/user/0/app.showcontrol.working/files/show-control-library/media/a79c60a668102d470f4dc35b0a8844750d61e1a9487e7611d2d530bb6589af1c.wav"
+      },
+      {
+        "method": "sha256File",
+        "reason": "Error: Call to function 'ShowAudio.sha256File' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Remote file authorities are not local media.",
+        "uri": "file://example.invalid/data/user/0/app.showcontrol.working/files/show-control-library/media/a79c60a668102d470f4dc35b0a8844750d61e1a9487e7611d2d530bb6589af1c.wav"
+      },
+      {
+        "method": "waveform",
+        "reason": "Error: Call to function 'ShowAudio.waveform' has been rejected.\n→ Caused by: java.lang.IllegalArgumentException: Remote file authorities are not local media.",
+        "uri": "file://example.invalid/data/user/0/app.showcontrol.working/files/show-control-library/media/a79c60a668102d470f4dc35b0a8844750d61e1a9487e7611d2d530bb6589af1c.wav"
+      }
+    ]
+  },
+  {
+    "actualVoiceStarts": 9,
+    "capacityRefusals": 1,
+    "final": {
+      "activeVoiceCount": 0,
+      "countdownRemainingMs": 0,
+      "currentCueId": "",
+      "currentCueIndex": -1,
+      "generation": 83,
+      "nativeCommandId": 14,
+      "nextCueId": "",
+      "nextCueIndex": 2,
+      "phase": "ready",
+      "playbackRate": 1,
+      "revisionId": "capacity-fixed",
+      "selectedCueId": "next",
+      "setId": "capacity-set",
+      "showId": "capacity-smoke",
+      "transportMode": "oms",
+      "type": "RUN_STATE"
+    },
+    "idle": {
+      "activeVoiceCount": 0,
+      "countdownRemainingMs": 0,
+      "currentCueId": "",
+      "currentCueIndex": -1,
+      "generation": 82,
+      "nativeCommandId": 3,
+      "nextCueId": "next",
+      "nextCueIndex": 1,
+      "phase": "ready",
+      "playbackRate": 1,
+      "revisionId": "capacity-fixed",
+      "selectedCueId": "main",
+      "setId": "capacity-set",
+      "showId": "capacity-smoke",
+      "transportMode": "oms",
+      "type": "RUN_STATE"
+    },
+    "looping": {
+      "activeVoiceCount": 8,
+      "countdownRemainingMs": 0,
+      "currentCueId": "main",
+      "currentCueIndex": 0,
+      "generation": 82,
+      "nativeCommandId": 11,
+      "nextCueId": "next",
+      "nextCueIndex": 1,
+      "phase": "playing",
+      "playbackRate": 2,
+      "revisionId": "capacity-fixed",
+      "selectedCueId": "main",
+      "setId": "capacity-set",
+      "showId": "capacity-smoke",
+      "transportMode": "oms",
+      "type": "RUN_STATE"
+    },
+    "refusedNinthVoice": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "artist": "Kevin MacLeod",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "catalogAndRecordingLicenseDeclaration": "https://incompetech.com/agent-section/",
+  "liveProductionAndCreditGuidance": "https://incompetech.com/music/royalty-free/faq.html",
+  "standardLicenseAlternative": "https://incompetech.com/music/royalty-free/licenses/",
+  "verifiedAt": "2026-10-13T20:57:46.863968+00:00",
+  "catalogUrl": "https://incompetech.com/music/royalty-free/pieces.json",
+  "catalogSnapshotSha256": "54802ad340562624b9d1c9c97aa9f005e2b9bf79001f8a1a07ed857e68b2164a",
+  "tracks": 100,
+  "attributions": "CREDITS.md; also embedded in every Show Control song note",
+  "unchangedRecordingPayloads": 96,
+  "modifiedExcerpts": 4,
+  "modifications": "Four long recordings supplied as opening six-minute excerpts with 3-second end fades; re-encoded at 256 kbps. Source recordings and modification notices are identified per track."
+}

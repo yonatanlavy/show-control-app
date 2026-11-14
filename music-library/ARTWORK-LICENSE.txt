@@ -1,0 +1,6 @@
+The 13 category-cover PNG images in the artwork folder are original graphics
+created for this collection. They are provided under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The music recordings are separate works by Kevin MacLeod, licensed under
+CC BY 4.0. See CREDITS.md for their attributions, source links and changes.

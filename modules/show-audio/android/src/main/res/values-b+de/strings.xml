@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">Wenig Arbeitsspeicher · Show Control zum Prüfen öffnen</string>
+  <string name="show_audio_notification_low_battery">Akku schwach · Für die Show an Strom anschließen</string>
+  <string name="show_audio_notification_heat">Telefon zu heiß · Für die Show abkühlen lassen</string>
+  <string name="show_audio_notification_settings_unknown">Schutzeinstellungen unbekannt · Vor der Show prüfen</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">Show-Wiedergabe</string>
+  <string name="show_audio_notification_battery_warning">Akkueinstellungen können die Show unterbrechen · Zum Prüfen tippen</string>
+  <string name="show_audio_notification_prepared">Show vorbereitet · Steuerung im Hintergrund bereit</string>
+  <string name="show_audio_notification_active">Show läuft · Zur Steuerung tippen</string>
+  <string name="show_audio_notification_recovery">Audio gestoppt · Show Control zur Wiederherstellung öffnen</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">Zurück</string>
+  <string name="show_audio_notification_resume">Fortsetzen</string>
+  <string name="show_audio_notification_stop">Alles stoppen</string>
+</resources>

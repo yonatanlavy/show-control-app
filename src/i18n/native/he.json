@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "Show Control מזהה ביטויי קיו של המבצע במכשיר בלבד, כאשר השליטה הקולית חמושה במפורש.",
+    "NSBluetoothAlwaysUsageDescription": "Show Control משתמש ב־Bluetooth רק לכפתורי מופע שהמבצע ממפה, כגון Flic.",
+    "NSDocumentsFolderUsageDescription": "Show Control מייבא את האודיו שלכם לאחסון מופעים פרטי במכשיר.",
+    "NSLocalNetworkUsageDescription": "Show Control מתחבר למחשב המצומד כדי להכין מוזיקה ולשמור אותה במכשיר הזה."
+  }
+}

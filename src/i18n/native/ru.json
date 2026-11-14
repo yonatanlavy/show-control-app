@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "Show Control распознаёт фразы исполнителя локально, только когда голосовое управление явно включено.",
+    "NSBluetoothAlwaysUsageDescription": "Show Control использует Bluetooth только для кнопок шоу, назначенных исполнителем, например Flic.",
+    "NSDocumentsFolderUsageDescription": "Show Control импортирует ваше аудио в закрытое хранилище шоу на устройстве.",
+    "NSLocalNetworkUsageDescription": "Show Control подключается к сопряжённому компьютеру для подготовки и сохранения музыки на устройстве."
+  }
+}

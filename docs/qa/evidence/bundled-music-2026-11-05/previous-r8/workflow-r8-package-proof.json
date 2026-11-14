@@ -1,0 +1,107 @@
+{
+  "sha256": "E1C8408B3F7E9FC77EA0B9DC9096178651FB19F31687CEE2471A179661EEBD61",
+  "installed": true,
+  "payloadCount": 72,
+  "unchangedPayloadCount": 71,
+  "unchangedLibrariesManifestResources": 66,
+  "changedDex": [
+    {
+      "path": "classes3.dex",
+      "sha256": "067BF5523535B46B54B66629D095C44842ED853CAA178F1A305824AA55E7B5D1"
+    }
+  ],
+  "bundleSha256": "1C32E5C48BC5DD43E18D6018027C257FBBCD7026DC714D74477DBA14394F0A44",
+  "helperScanEntries": [
+    "classes.dex",
+    "classes2.dex",
+    "classes3.dex",
+    "classes4.dex",
+    "classes5.dex",
+    "classes6.dex",
+    "assets/index.android.bundle",
+    "AndroidManifest.xml"
+  ],
+  "helpersAbsent": true,
+  "unchangedR7JavaScriptSources": [
+    {
+      "path": "src/ui/ShowIdentityContext.tsx",
+      "sha256": "A9ACF8D456D653B371B374CC7914DF9AAB901A8CB325B6E464C10C242A57B191"
+    },
+    {
+      "path": "src/ui/show-identity.ts",
+      "sha256": "0279215475AC68FD0E4821BFDD239584D358CF98F09175CC00C4302C0CACEC7B"
+    },
+    {
+      "path": "src/ui/library-screens.tsx",
+      "sha256": "034CF88898004175E16AD87531BA8EC37AFD48306D6893CF32BF5E3AF7B1EB2F"
+    },
+    {
+      "path": "src/ui/CollectionSearch.tsx",
+      "sha256": "C39A5F0DDFE7F51D0FAA6EC3B89D5F31222533515572A11F3AE7B23AD8C5FAF8"
+    },
+    {
+      "path": "src/ui/screens.tsx",
+      "sha256": "609B52E5A5135E8975E3F3C3C4F8807440281AEB43B1060CA9E6C52DB16009CB"
+    },
+    {
+      "path": "src/ui/rehearsal-screen.tsx",
+      "sha256": "6DE98FFCF4099DAFA617264E23C248CB839201F46CE427596186B3A9DB9B68E9"
+    },
+    {
+      "path": "src/ui/controller-screen.tsx",
+      "sha256": "052CEF6095A416BC645264DD7F1DFB2EA44D5061A77C4A714FC3C32246B341E6"
+    },
+    {
+      "path": "src/ui/AppProvider.tsx",
+      "sha256": "2B474619F8084D4E6F1C4DF0FFAA1FDEBEB75B3718520E2A3E5B3305D41D1DF4"
+    },
+    {
+      "path": "src/i18n/usability-library-messages.ts",
+      "sha256": "EE20268BDED43C5AABE953D7F437AB4470C0DFF5959C64F34DE168E151F5E3A4"
+    }
+  ],
+  "changedMetroSources": [
+    {
+      "path": "src/music/downloads.ts",
+      "sha256": "8479357437C689F11D4D8E51D33EB8D5BA9C45C5141C74323A1082DAB6246ABF"
+    },
+    {
+      "path": "src/i18n/music-messages.ts",
+      "sha256": "E032BBA008973C703E136FB8CAF24089C05209700600A48AE72F56360FD0344D"
+    },
+    {
+      "path": "src/i18n/music-translations.ts",
+      "sha256": "FA21FF67DEB961A0C6C913738DDED016F98DAAE37A91821122AA84C0F7764243"
+    }
+  ],
+  "nativeSourceAndTest": [
+    {
+      "path": "modules/show-downloads/android/src/main/java/app/showcontrol/downloads/DownloadRuntime.kt",
+      "sha256": "9BAC1CC9ABC8FA1F84320831DE950EBAD6D3F8E4AC7F69AB382ADFDAB4951BF9"
+    },
+    {
+      "path": "tests/native/download-initialization-source-regression.mjs",
+      "sha256": "368555D6FBD4FACB2C7FF9708B219B6A5E84EDB148DDD391C62B57DCE711CADD"
+    },
+    {
+      "path": "src/music/downloads.ts",
+      "sha256": "8479357437C689F11D4D8E51D33EB8D5BA9C45C5141C74323A1082DAB6246ABF"
+    },
+    {
+      "path": "tests/storage/music-downloads.test.ts",
+      "sha256": "C0C58B212486FECB56C0EE24A10E8C972148F7F41082728CFC2DD4F75E6DA635"
+    },
+    {
+      "path": "src/i18n/music-messages.ts",
+      "sha256": "E032BBA008973C703E136FB8CAF24089C05209700600A48AE72F56360FD0344D"
+    },
+    {
+      "path": "src/i18n/music-translations.ts",
+      "sha256": "FA21FF67DEB961A0C6C913738DDED016F98DAAE37A91821122AA84C0F7764243"
+    }
+  ],
+  "compiledClassPath": "C:\\dev\\personal\\show-control-app\\modules\\show-downloads\\android\\build\\tmp\\kotlin-classes\\release\\app\\showcontrol\\downloads\\DownloadRuntime.class",
+  "compiledClassSha256": "A0EED05FE9E85E69260C666E5D130CD8EAE51155B680DBA6D7B3312C1D83C197",
+  "dedicatedLockBytecode": true,
+  "checkedUtc": "2026-11-05T12:04:41.3855736+00:00"
+}

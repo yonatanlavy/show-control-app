@@ -1,0 +1,134 @@
+{
+  "createdAt": "2026-10-13T20:25:22.437322+00:00",
+  "downloads": "100/100 completed via yt-dlp from official composer URLs",
+  "fullDecode": "100/100 passed",
+  "uniqueAudioHashes": 100,
+  "totalMp3Bytes": 718314098,
+  "bundle": {
+    "archive": "Show-Control-Magic-Music-100.zip",
+    "bytes": 719432596,
+    "sha256": "69ec072faf1b301b940ddf5e6c9cf7a039140f241fa2aaafe4a517e575ae0061",
+    "mediaFiles": 100,
+    "artworkFiles": 13,
+    "shows": 1,
+    "playlists": 13
+  },
+  "appDomainValidation": {
+    "status": "passed",
+    "appSource": "C:\\dev\\personal\\show-control-app",
+    "inspector": "src/storage/zip.ts",
+    "manifestValidator": "src/storage/library-bundle.ts",
+    "entries": 114,
+    "crcAndShaPayloads": 113,
+    "playlistsCompiled": 13,
+    "uniqueMusicFiles": 100,
+    "manualDefaults": "100/100 passed",
+    "credits": "100/100 present"
+  },
+  "nativeImport": {
+    "status": "passed",
+    "device": "Android API 36 emulator (no audio output)",
+    "path": "Settings → Import library backup → Android system file picker",
+    "databaseQuickCheck": "ok",
+    "songs": 100,
+    "media": 100,
+    "playlists": [
+      {
+        "name": "01 · Walk-on & Openers",
+        "songs": 8
+      },
+      {
+        "name": "02 · Volunteers & Applause",
+        "songs": 8
+      },
+      {
+        "name": "03 · Playful Close-up",
+        "songs": 8
+      },
+      {
+        "name": "04 · Cards, Coins & Money",
+        "songs": 8
+      },
+      {
+        "name": "05 · Wonder & Levitation",
+        "songs": 10
+      },
+      {
+        "name": "06 · Memory & Connection",
+        "songs": 8
+      },
+      {
+        "name": "07 · Uncanny & Suspense",
+        "songs": 10
+      },
+      {
+        "name": "08 · Pressure & Apparent Danger",
+        "songs": 6
+      },
+      {
+        "name": "09 · Mentalism & Thinking Beds",
+        "songs": 8
+      },
+      {
+        "name": "10 · Comedy & Intentional Waiting",
+        "songs": 6
+      },
+      {
+        "name": "11 · Reveals & Release",
+        "songs": 6
+      },
+      {
+        "name": "12 · Finales, Bows & Walk-off",
+        "songs": 8
+      },
+      {
+        "name": "13 · Doors, Mixing & Interval",
+        "songs": 6
+      }
+    ],
+    "artwork": 13,
+    "allMediaAppOwned": true,
+    "nativeImportedHashSetMatches": true,
+    "creditsPresent": 100,
+    "otherShowsPreserved": 2,
+    "manualDefaults": "100/100 passed",
+    "transportDuringImport": "stopped; zero active voices (native getState)",
+    "capturedAt": "2026-10-13T20:45:40.371232+00:00"
+  },
+  "musicalAudition": "Requires rehearsal against the performer's handling and voice",
+  "physicalDevices": "not tested",
+  "aiUsed": false,
+  "nativePreview": {
+    "previewStarted": true,
+    "seekAccepted": true,
+    "previewStopped": true,
+    "activeVoicesAfter": 0,
+    "nativeErrors": 0,
+    "note": "Android emulator with audio output disabled; verifies native admission/transport, not listening quality"
+  },
+  "coldRelaunch": {
+    "songsPersisted": 100,
+    "phase": "stopped",
+    "activeVoices": 0
+  },
+  "browser": {
+    "status": "passed via local HTTP server",
+    "trackCards": 100,
+    "effectEntries": 297,
+    "volunteerFilter": 8,
+    "whichHandSearch": 3,
+    "paddedCueSearch": "001 matched Cipher",
+    "emptyAndScriptLikeSearch": "safe empty state",
+    "creditsDialog": "opened, focused Close, closed",
+    "mp3Playback": "Bass Walker and Easy Lemon loaded/played/paused",
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "horizontalOverflow": false,
+    "auditionTouchTargetPx": 48,
+    "latestConsoleErrors": 0,
+    "directFileProtocolCheck": "Blocked by browser tool; no bypass attempted"
+  }
+}

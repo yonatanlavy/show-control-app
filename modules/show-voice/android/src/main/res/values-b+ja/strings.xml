@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="showcontrol_voice_channel_name">端末内の音声操作</string>
+  <string name="showcontrol_voice_armed_body">端末のマイクによる操作が有効です</string>
+</resources>

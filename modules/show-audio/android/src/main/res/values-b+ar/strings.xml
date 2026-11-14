@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">ذاكرة منخفضة · افتح Show Control للمراجعة</string>
+  <string name="show_audio_notification_low_battery">البطارية منخفضة · وصّل الطاقة لحماية العرض</string>
+  <string name="show_audio_notification_heat">الهاتف ساخن جدًا · برّده لحماية العرض</string>
+  <string name="show_audio_notification_settings_unknown">بعض إعدادات الحماية غير متاحة · راجعها قبل العرض</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">تشغيل العرض</string>
+  <string name="show_audio_notification_battery_warning">قد تقاطع إعدادات البطارية العرض · انقر لمراجعة التحكم</string>
+  <string name="show_audio_notification_prepared">العرض مجهز · التحكم جاهز في الخلفية</string>
+  <string name="show_audio_notification_active">العرض يعمل · انقر للعودة إلى التحكم</string>
+  <string name="show_audio_notification_recovery">توقف الصوت · افتح Show Control للاستعادة</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">السابق</string>
+  <string name="show_audio_notification_resume">استئناف</string>
+  <string name="show_audio_notification_stop">إيقاف الكل</string>
+</resources>

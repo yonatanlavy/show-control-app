@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "Show Control erkennt die Cue-Phrasen des Auftretenden lokal, wenn die Sprachsteuerung ausdrücklich scharfgeschaltet ist.",
+    "NSBluetoothAlwaysUsageDescription": "Show Control nutzt Bluetooth nur für vom Auftretenden zugewiesene Show-Tasten wie Flic.",
+    "NSDocumentsFolderUsageDescription": "Show Control importiert Ihr Audio in den privaten Show-Speicher auf dem Gerät.",
+    "NSLocalNetworkUsageDescription": "Show Control verbindet sich mit deinem gekoppelten Computer, um Musik vorzubereiten und auf diesem Gerät zu speichern."
+  }
+}

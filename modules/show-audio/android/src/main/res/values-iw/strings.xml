@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">מחסור בזיכרון · פתחו את Show Control לבדיקה</string>
+  <string name="show_audio_notification_low_battery">סוללה חלשה · חברו לחשמל כדי לשמור על המופע</string>
+  <string name="show_audio_notification_heat">הטלפון חם מדי · קררו את המכשיר כדי לשמור על המופע</string>
+  <string name="show_audio_notification_settings_unknown">חלק מהגדרות ההגנה לא זמינות · בדקו לפני המופע</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">נגינת מופע</string>
+  <string name="show_audio_notification_battery_warning">הגדרות הסוללה עלולות להפריע למופע · הקישו לבדיקת הפקדים</string>
+  <string name="show_audio_notification_prepared">המופע מוכן · הפקדים זמינים ברקע</string>
+  <string name="show_audio_notification_active">המופע פעיל · הקישו לחזרה לפקדים</string>
+  <string name="show_audio_notification_recovery">האודיו נעצר · פתחו את Show Control לשחזור</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">הקודם</string>
+  <string name="show_audio_notification_resume">המשך</string>
+  <string name="show_audio_notification_stop">עצירת הכול</string>
+</resources>

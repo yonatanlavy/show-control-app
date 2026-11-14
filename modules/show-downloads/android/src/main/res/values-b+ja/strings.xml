@@ -1,0 +1,5 @@
+<resources>
+  <string name="download_channel">Show Control · ダウンロード履歴</string>
+  <string name="download_running">ダウンロード中</string>
+  <string name="download_cancel">キャンセル</string>
+</resources>

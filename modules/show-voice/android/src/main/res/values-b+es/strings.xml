@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="showcontrol_voice_channel_name">Control de voz local</string>
+  <string name="showcontrol_voice_armed_body">El control del micrófono local está armado</string>
+</resources>

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.showcontrol.nativefaultprobe">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35" />
+  <application android:label="Show Control synthetic fault probe" android:allowBackup="false" android:hasCode="true" />
+  <instrumentation android:name="app.showcontrol.nativefaultprobe.FaultProbe" android:targetPackage="app.showcontrol.working" android:label="Synthetic media test only" />
+  <instrumentation android:name="app.showcontrol.nativefaultprobe.ReadinessProbe" android:targetPackage="app.showcontrol.working" android:label="Synthetic readiness test only" />
+</manifest>

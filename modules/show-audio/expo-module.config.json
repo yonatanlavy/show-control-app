@@ -1,0 +1,5 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": { "modules": ["ShowAudioModule"] },
+  "android": { "modules": ["app.showcontrol.audio.ShowAudioModule"] }
+}

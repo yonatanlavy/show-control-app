@@ -1,0 +1,94 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "3C55475CE63C5BA846D566C2AB158A5B80C588806CEF150A53BED1681A4E06C2"
+  },
+  {
+    "path": "scripts/prepare-included-music.mjs",
+    "sha256": "A2826FFDB55ECAFF537B2867F7ECE614C356EC904C594617272599F0A31E5A81"
+  },
+  {
+    "path": "modules/show-downloads/android/src/main/java/app/showcontrol/downloads/IncludedMusic.kt",
+    "sha256": "174BF6159746E0C6C1F65BEF3EFA5BE40CC0CD60B981F16E993151C89C95CDAE"
+  },
+  {
+    "path": "modules/show-downloads/android/src/main/java/app/showcontrol/downloads/ShowDownloadsModule.kt",
+    "sha256": "17D5A261B7A82E4DE0A8528B688ECCDA3CC0184C21AB31B0B23FD68FF8A3CAEA"
+  },
+  {
+    "path": "modules/show-downloads/android/build.gradle",
+    "sha256": "5192DDE81DFAA4B0AFDE5DC8628F91126DBB24F298E39EEECFE058F60A2240B8"
+  },
+  {
+    "path": "modules/show-downloads/index.ts",
+    "sha256": "BE87F2BBC8B59C31EAE92FE4EE83A1E9AD57017F0CC19C99234425B1CE617238"
+  },
+  {
+    "path": "src/storage/backup-progress.ts",
+    "sha256": "164239532156C2B664FBBC0AFEF32638215B18B422CDA84C20209FA1EC7849C0"
+  },
+  {
+    "path": "src/storage/backup.ts",
+    "sha256": "BA2DCB2BF5B8868DA9F4AA4014DEE93C7447BA8A50E599E782797E7A68566987"
+  },
+  {
+    "path": "src/storage/sqlite.ts",
+    "sha256": "4F85701959E73A3D35BE7613922D8473ED8EB645B827AB6BE17E0985C41D7C83"
+  },
+  {
+    "path": "src/music/included-library.ts",
+    "sha256": "0176BCCCAC11F87BE77DA03769D0B92CEE536BC3ED92D9C734301CFC44E42BED"
+  },
+  {
+    "path": "src/ui/IncludedMusicPanel.tsx",
+    "sha256": "FB65F37C7A2CDF6F97444D5D3EEC5305DB19383408537D02C67BB25DB1036FA1"
+  },
+  {
+    "path": "src/ui/library-screens.tsx",
+    "sha256": "019D39D698A63DE9BC5C08BB00B8E5B44F45ADBE535B4877533D4E07FF768F92"
+  },
+  {
+    "path": "src/i18n/usability-library-messages.ts",
+    "sha256": "657B5718F2440014179EFDA89C72BBC8322B6CB7B4614015FCC2121FB532FC29"
+  },
+  {
+    "path": "tests/storage/included-music.test.ts",
+    "sha256": "26E6C3A1D14EDB87DDA327F7B7250605808245622BC912D59ACA0B57E8593F0E"
+  },
+  {
+    "path": "tests/storage/library.test.ts",
+    "sha256": "FBD47599C037558EA144FA8BDA8C8B1A12EEEFC33731B5439CB34E40D55C7D9B"
+  },
+  {
+    "path": "src/ui/__tests__/included-music-panel.test.tsx",
+    "sha256": "8A1173CD97B08335BFC56DC89505ED71ACE25DA38622C5B48588697F205DFD43"
+  },
+  {
+    "path": "tools/android/bundled-music.init.gradle",
+    "sha256": "C0C74F841DC3526488BACF47237F8F75E662F50438A860693EA97C6206B03CE4"
+  },
+  {
+    "path": "tools/build-android-test.ps1",
+    "sha256": "967E0E1F207BF6C509D0F83CFD0C4DD2D0AFC5DDC307B17C0FCA25AA1C0AB94D"
+  },
+  {
+    "path": "tools/check-android-source.ps1",
+    "sha256": "266877A878ED8616F60BDB5A34410F528C62F7BD185E4BDB71F19601C751F64A"
+  },
+  {
+    "path": "tools/verify-bundled-music.py",
+    "sha256": "46FA1A23CAC15741C2BE7D50F04F34635F08C16EEF0DF30863DBDA46869B1519"
+  },
+  {
+    "path": "tools/cleanup-show-control.ps1",
+    "sha256": "1F038DEBF52339192FC5283929CF672107814371D7B70948A901F5053C2E3469"
+  },
+  {
+    "path": "docs/bundled-music-2026-11-05.md",
+    "sha256": "BF146A449EECB3E493FC6AE328627E903933066A321366EF6ED22144F7BD1075"
+  },
+  {
+    "path": "docs/music-library.md",
+    "sha256": "B64D342F89209A248390CD7D089E63BAA5BDA5C122291EAECA5ABE0C602C299C"
+  }
+]

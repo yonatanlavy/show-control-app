@@ -1,0 +1,9 @@
+# Read-only Recovery view probe
+
+Separate same-public-test-signer Android instrumentation for the owned synthetic `ShowControl_LibraryLoad_QA` fixture. It is never shipped or registered in Show Control. It reads no database, file media, input contents, API keys, receipts or SDK state and dispatches no transport, store or permission command. Native EditText values are explicitly excluded from inspection.
+
+Verify the exact target APK, expected AVD/serial, idle native services, source/build hashes and same signer before starting. Instrumentation can stop the target process on entry, so start it before deliberately preparing the silent synthetic rehearsal. A fresh UUID token names three target external-files JSON records: `recovery-view-<token>-ready.json`, `-measured.json`, and `-idle.json`; failure uses `-failure.json`.
+
+After ready, use the real interface to Prepare, navigate to Recovery and leave it settled. The probe counts mounted Android views and exact synthetic `QA Rehearsal song NNNN` TextViews on the UI queue, separately from UIAutomator's pruned hierarchy. It waits for repeated stable counts. Then exit silently to Library through the actual interface and wait for idle and instrumentation completion. Each wait is bounded to six minutes. A still-live observer or observation timeout is not authorization to restart the app or probe; reconcile its existing process/results.
+
+This measures mounted views in a controlled instrumented process, not frame latency, physical audio, an ANR root cause, screen-reader quality or customer readiness. Retain results and exact source/artifact hashes, remove only this probe and token-owned result files, and preserve the synthetic library/selection/settings. Local packaging automation lives in the authoring checkout's ignored `.native-check/recovery-view-build.ps1`.

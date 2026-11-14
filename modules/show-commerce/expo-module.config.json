@@ -1,0 +1,5 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": { "modules": ["ShowCommerceModule"] },
+  "android": { "modules": ["app.showcontrol.commerce.ShowCommerceModule"] }
+}

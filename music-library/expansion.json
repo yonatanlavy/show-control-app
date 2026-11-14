@@ -1,0 +1,132 @@
+{
+  "edition": "2026-10-14",
+  "targetTracks": 170,
+  "name": "Magician & Mentalist — 170 Music Cues",
+  "researchNotice": "The 60 Derren selections and 10 Asi selections are programming recommendations, not recordings claimed to be used or endorsed by either performer. Reported production music is documented separately with confidence and stage/TV context. The custom McFly Enigma song is excluded.",
+  "categories": [
+    {
+      "id": "derren-welcome", "name": "14 · Derren — Welcome & Mischief", "folder": "14 Derren Welcome and Mischief", "color": "yellow", "editionGroup": "derren", "researchIds": ["svengali-swing", "get-happy"], "targetLufs": -26, "maxCueSeconds": 90, "fadeInMs": 650, "fadeOutMs": 1400,
+      "instruction": "Invite people in speech, then let the groove carry the walk or reset. Fade before names, consent, instructions, or choices. Vintage warmth should make participation welcoming; reserve the noir tracks for a playful detective premise.",
+      "tracks": [
+        ["Opportunity Walks", "Performer entrance or the first volunteer walk-up: a brisk piano-combo welcome. Fade as the spoken exchange begins."],
+        ["No Good Layabout", "Several people coming onstage or changing seats: walking jazz lets the room move without treating volunteers as a joke."],
+        ["Jazz Brunch", "Pre-show mingling or a comfortable reset between acts. Use it at conversation level, then fade for the host."],
+        ["Deuces", "A retro club atmosphere for interval, a gambling demonstration's setup, or a relaxed volunteer exit."],
+        ["Hard Boiled", "Which Hand or a playful lie-detection premise: establish the detective tone, then remove the bed for the actual answers."],
+        ["Covert Affair", "A lighthearted heist or hidden-object story while props are introduced. Keep the claimed conditions and choice unscored."],
+        ["Poppers and Prosecco", "An easygoing applause bridge or return to seats. Let thanks and laughter remain audible above it."],
+        ["Night in Venice", "A vintage-sounding, softer reception or first volunteer entrance for a formal theatrical room."],
+        ["Dances and Dames", "An off-kilter noir transition into a detective story. Includes voice texture; avoid laying it under spoken evidence."],
+        ["Vibing Over Venus", "Long audience mixing or a post-show lounge exit: an unhurried jazz alternative to suspense throughout the evening."]
+      ]
+    },
+    {
+      "id": "derren-thought", "name": "15 · Derren — Thought & Choice", "folder": "15 Derren Thought and Choice", "color": "blue", "editionGroup": "derren", "researchIds": ["minimal-direction", "asi-intimacy"], "targetLufs": -33, "maxCueSeconds": 180, "fadeInMs": 1600, "fadeOutMs": 1700,
+      "instruction": "Use a restrained bed only for a visible task that needs time: writing, drawing, arranging, or comparing. Give the instructions in silence and fade before the answer. A steady texture is not an induction recording or a guarantee of any psychological response.",
+      "tracks": [
+        ["Cylinder One", "A restrained opening texture while a participant writes a private thought; fade before inviting them to speak."],
+        ["Cylinder Two", "A different recurring atmosphere for drawings or a quiet choice sequence. Use the same cue again for a later callback."],
+        ["Cylinder Three", "A compact alternative for a short concentration task or a moment of mental calculation."],
+        ["Cylinder Five", "Several participants comparing or arranging items: keep it low enough for their natural conversation."],
+        ["Cylinder Six", "A brief atmosphere for the transition from public explanation to a quiet personal task, then silence for the revelation."],
+        ["Heliograph", "A spacious option while the audience follows a simple visualization. Test any evolving passages against speech before using."],
+        ["Oxygen Garden", "Audience synchrony or paired drawings during the actual activity. Fade before showing the matching evidence."],
+        ["Wonder Cycle", "A repeated-choice or collective-concentration task that needs continuity without a reveal sting."],
+        ["Half Mystery", "A measured electronic pulse for sorting envelopes or solving a visible puzzle. Remove the pulse before the final decision."],
+        ["Envision", "A short, modern problem-solving bridge before a thought-reading scene. Keep participant answers completely clear."]
+      ]
+    },
+    {
+      "id": "derren-uncanny", "name": "16 · Derren — Uncanny & Tension", "folder": "16 Derren Uncanny and Tension", "color": "red", "editionGroup": "derren", "researchIds": ["beethoven-contrast", "showman-strings"], "targetLufs": -31, "maxCueSeconds": 150, "fadeInMs": 1800, "fadeOutMs": 1300,
+      "instruction": "Begin after the premise and conditions are clear. Fade to silence before a critical choice, apparent-danger decision, or verification. These are theatrical atmospheres with manual exits; they do not time or make any stunt safe. Do not use an unsettling bed beneath a participant's personal disclosure.",
+      "tracks": [
+        ["CGI Snake", "A strange-room atmosphere for an impossible object or unexplained movement before the final inspection."],
+        ["Candlepower", "Patient suspense while a locked prediction remains in view. Keep the bed below explanation and remove it before opening."],
+        ["Divider", "A shorter ominous transition into a distinctly theatrical experiment; establish the frame before starting music."],
+        ["Cylinder Seven", "A longer sustained alternative while multiple people complete an eerie but clearly framed theatrical task."],
+        ["Cylinder Eight", "Quiet unease while an audience member examines an apparently ordinary object. Fade for their testimony."],
+        ["I Don't See the Branches, I See the Leaves", "A slowly developing texture for a longer uncanny scene. The show cue is trimmed to 150 seconds; the full recording remains editable."],
+        ["Is That You or Are You You?", "An introspective option for a doubles, identity, or perception premise. Let the result remain unresolved in silence."],
+        ["Shadowlands 2 - Bridge", "The most uneasy choice here for visible escalation in a theatrical roulette scene; fade before the decision, not after it."],
+        ["Penumbra", "A darker piano atmosphere for a shadow, haunted-object, or prediction scene that genuinely calls for unease."],
+        ["Man Down", "A restrained string and electric-piano suspense option when the scene needs weight without a driving beat."]
+      ]
+    },
+    {
+      "id": "derren-memory", "name": "17 · Derren — Memory & Humanity", "folder": "17 Derren Memory and Humanity", "color": "purple", "editionGroup": "derren", "researchIds": ["beethoven-contrast", "showman-strings", "minimal-direction"], "targetLufs": -34, "maxCueSeconds": 210, "fadeInMs": 2200, "fadeOutMs": 2400,
+      "instruction": "Use music for your own reflective narration or an earned image after recognition. Names, bereavement, private memories, and a participant's answers belong in silence. Choose an emotional tone the scene has earned, and allow several unscored beats after the result.",
+      "tracks": [
+        ["The Temperature of the Air on the Bow of the Kaleetan", "A reflective atmosphere for the performer's story about time or memory. Fade before the participant shares a real memory."],
+        ["That Kid in Fourth Grade Who Really Liked the Denver Broncos", "A warm nostalgic alternative for a childhood-themed introduction, with the personal details left unscored."],
+        ["Readers! Do You Read?", "A restrained atmosphere while introducing books, language, or remembered places; silence for the named word."],
+        ["Out of the Skies, Under the Earth", "A sustained visual atmosphere for a connection or constellation image once its meaning is understood."],
+        ["God Be With You Till We Meet Again", "A reflective parting option after the participant has finished speaking. Use only when its emotional association suits the scene."],
+        ["There Are Many Different Kinds of Love", "A gentler choice for the performer's connection-themed narration or an earned closing image."],
+        ["Gymnopedie No. 1", "Satie's poised piano as a calm contrast to an extraordinary physical image. This is a licensed Kevin MacLeod recording, not Brown's Beethoven cue."],
+        ["Gymnopedie No. 2", "A more changeable piano alternative for uncertain recollection; rehearse the dynamics before using beneath narration."],
+        ["Gymnopedie No. 3", "An unresolved, darker piano ending for a scene about time. Leave the final answer in silence."],
+        ["Promises to Keep", "A solo-piano atmosphere for an earned promise or reunion theme after the evidence has landed."]
+      ]
+    },
+    {
+      "id": "derren-ritual", "name": "18 · Derren — Ritual & Contrast", "folder": "18 Derren Ritual and Contrast", "color": "purple", "editionGroup": "derren", "researchIds": ["beethoven-contrast", "miracle-organ", "third-man"], "targetLufs": -31, "maxCueSeconds": 150, "fadeInMs": 1800, "fadeOutMs": 1800,
+      "instruction": "Use a different palette for a deliberately theatrical Victorian demonstration, period story, or movement passage. Distinguish staging from personal testimony; explanations and evidence remain in silence. A strong orchestral track is for visible action, rather than a continuous speech bed.",
+      "tracks": [
+        ["Cylinder Four", "A recurring atmosphere for a staged ritual or invisible-force demonstration, with all spoken conditions clear first."],
+        ["Cylinder Nine", "A contrasting texture for an old object, sealed letter, or quiet theatrical tableau."],
+        ["Virtues Inherited, Vices Passed On", "A generational or remembered-history introduction delivered by the performer; fade for real participant details."],
+        ["John Stockton Slow Drag", "A measured alternative for a slow theatrical walk, blindfold setup, or visible arrangement of objects."],
+        ["What Does Anybody Know About Anything", "A philosophical transition about certainty and perception. The selection is a style recommendation, not a Brown soundtrack identification."],
+        ["There's Probably No Time", "A time-themed atmosphere while an object or watch is arranged; remove it before the spectator names or verifies a time."],
+        ["Danse Macabre", "Saint-Saens's theatrical orchestral dance for a deliberately Gothic visual passage. Use sparingly and avoid it under detailed speech."],
+        ["Ritual", "Slow low-flute atmosphere for a clearly framed Victorian or phantom-chalk demonstration, then silence for verification."],
+        ["Evening of Chaos", "A more fractured piano and percussion palette when the story moves from order into uncertainty."],
+        ["Amazing Grace 2011", "An organ and clarinet gospel-color reference for a explicitly theatrical faith-themed scene. Never score someone else's personal disclosure or imply this was Brown's recording."]
+      ]
+    },
+    {
+      "id": "derren-finale", "name": "19 · Derren — Finale & Release", "folder": "19 Derren Finale and Release", "color": "green", "editionGroup": "derren", "researchIds": ["thats-life", "get-happy", "beethoven-contrast"], "targetLufs": -28, "maxCueSeconds": 180, "fadeInMs": 1200, "fadeOutMs": 2200,
+      "instruction": "For a final callback, reprise a previously established motif at a low level and fade before the last piece of evidence. Start a separate release only after the audience has recognized the result. Keep congratulations, participant thanks, and the bow audible; endings remain manually controlled.",
+      "tracks": [
+        ["Air Hockey Saloon", "A warmer recurring electronic motif for a final visual callback or unhurried walk-off after recognition."],
+        ["Direct to Video", "A long-form atmospheric option for a projected finale or recap; use a rehearsed passage rather than assuming the title is a reveal hit."],
+        ["The 49th Street Galleria", "A more contemporary transition for the final assembly of objects or images, then silence while the evidence is read."],
+        ["Reunited", "A short, warm release after a reunion or connection result. Rehearse the fuller passage around 38 seconds before choosing a trim."],
+        ["Finding Movement", "An unhurried koto and strings release after a beautiful final image; let the visible resolution happen before the cue."],
+        ["Immersed", "A quiet piano-and-strings hold for a final image that needs contemplation instead of an applause sting."],
+        ["Clear Air", "A light acoustic return from a serious scene to the human warmth of thanking your volunteers."],
+        ["Sunshine (version 2)", "A brighter bow or auditorium walk-out after the show is finished, avoiding suspense during the audience's departure."],
+        ["Montauk Point", "An upbeat guitar-driven walk-off for the end of an energetic show. Use after the last spoken thanks."],
+        ["Impact Prelude", "A subtle pulse for placing final evidence in view or recalling the show's opening motif. Stop before the concluding statement."]
+      ]
+    },
+    {
+      "id": "asi-intimate", "name": "20 · Asi — Intimate Impossibilities", "folder": "20 Asi Intimate Impossibilities", "color": "blue", "editionGroup": "asi", "researchIds": ["asi-intimacy"], "targetLufs": -34, "maxCueSeconds": 120, "fadeInMs": 1300, "fadeOutMs": 1800,
+      "instruction": "These are new suggestions for the named Asi Wind effects, not claims about his soundtrack or handling. Prefer a quiet jazz or piano bed while a genuine task happens. Selections, signatures, names, spoken numbers, card identification, photograph comparison, and the final proof stay in silence.",
+      "tracks": [
+        ["Apero Hour", "Inner Circle-style reception and the approach to the table. Fade before learning names or inviting a selection."],
+        ["Cool Vibes", "Double Exposure: a soft jazz atmosphere while arranging the group photograph; silence for comparing the photo and actual cards."],
+        ["Sidewalk Shade", "Lucky 13: a light groove for genuine shuffling or arranging. Fade before the count and proof become the effect."],
+        ["Almost New", "Asi's Invisible Die: a curious piano texture during setup. Give the named number and all evidence their own silence."],
+        ["Light Thought var 2", "Salt Pepper: low electric piano during a visible arrangement, then silence when the impossible change is shown."],
+        ["Mana Two - Part 1", "Book or word revelations: a quiet task bed while a page is genuinely examined. Fade before the word or thought is named."],
+        ["Avec Soin", "Torn, Marked, Stabbed, Crumpled, Burned & Restored Page: restrained piano for the story around a personally meaningful page; restore and verify it in silence."],
+        ["Facile", "Meant to Be or a coincidence presentation: introduce the atmosphere before handling, then leave the final matching evidence unscored."],
+        ["Crinoline Dreams", "A warmer chamber-colored option for a remembered-card or shared-memory introduction, then clear space for participant voices."],
+        ["Danse Morialta", "An earned reflective release after the restored page or an intimate impossibility has been fully understood; wait before pressing GO."]
+      ]
+    }
+  ],
+  "originalTrackRefinements": {
+    "Sneaky Snitch": "Use only for an overtly playful moment after the premise is understood. For conversational close-up or Asi-style cards, prefer Cool Vibes or silence; do not score a participant as if they are sneaky.",
+    "Your Call": "Use the waiting joke only when the joke is yours, never because a participant is taking longer to write. Fade for their answer; use Cylinder Two for sincere concentration instead.",
+    "Oppressive Gloom": "Reserve for clearly theatrical suspense. For calm contrast choose Gymnopedie No. 1; fade before the critical decision.",
+    "Hitman": "A stronger escalation cue, rather than a default speech bed. Stop before the decision and let the result register before a release.",
+    "Concentration": "A genuine writing-task option. Try the softer Cylinder One or Cylinder Five for a more restrained atmosphere; shorten unnecessary handling first.",
+    "Long Road Ahead": "Includes choir and a broad emotional arc. Prefer Promises to Keep or silence for private memories; use the larger cue only after the scene earns it.",
+    "Backbay Lounge": "Keep as a general mingling cue. For a more vintage theatrical entrance, try No Good Layabout or Night in Venice.",
+    "Inspired": "Press only after the audience has recognized the result. For a contemplative ending try Immersed rather than rushing into a triumphant release.",
+    "Darkest Child": "An overtly dark theatrical choice. Avoid using it beneath personal names or bereavement; establish the scene's frame before music.",
+    "George Street Shuffle": "Suitable for actual shuffling time. For an intimate Asi-style card scene try Cool Vibes; spoken selections and verification stay unscored."
+  }
+}

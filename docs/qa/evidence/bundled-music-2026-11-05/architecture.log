@@ -1,0 +1,10 @@
+PASS tests/architecture/offline-locales.test.ts
+PASS tests/architecture/contracts.test.ts
+PASS tests/architecture/audience-timeline.test.ts
+PASS tests/architecture/audience-image-worker.test.ts
+
+Test Suites: 4 passed, 4 total
+Tests:       22 passed, 22 total
+Snapshots:   0 total
+Time:        2.289 s, estimated 5 s
+Ran all test suites matching /tests\\architecture/i.

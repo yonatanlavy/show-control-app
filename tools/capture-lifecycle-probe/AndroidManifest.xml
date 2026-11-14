@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.showcontrol.capturelifecycleprobe">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+  <application android:label="Capture lifecycle QA" android:allowBackup="false" />
+  <instrumentation android:name="app.showcontrol.capturelifecycleprobe.CaptureLifecycleProbe" android:targetPackage="app.showcontrol.working" android:functionalTest="true" android:handleProfiling="false" />
+</manifest>

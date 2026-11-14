@@ -1,0 +1,1 @@
+{"platforms":["apple","android"],"apple":{"modules":["ShowVisualModule"]},"android":{"modules":["app.showcontrol.visual.ShowVisualModule"]}}

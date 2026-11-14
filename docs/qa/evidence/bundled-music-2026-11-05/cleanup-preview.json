@@ -1,0 +1,171 @@
+{
+  "finalApk": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\Show-Control-All-170-Songs-2026-11-05.apk",
+  "finalSha256": "0085AED513FA4F444E2F760F96D32A001FDE4E35E4A72FAC239E124D9F4C716D",
+  "items": [
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\.expo",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\android\\.gradle",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\android\\app\\.cxx",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\android\\app\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\dist",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-audio\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-commerce\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-controller\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-downloads\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-downloads\\android\\src\\main\\assets\\showcontrol-music",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-visual\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-voice\\android\\.cxx",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\personal\\show-control-app\\modules\\show-voice\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\dev\\sc-apk-cxx",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-music-library\\__pycache__",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-music-library\\work",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\.expo",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\.native-check",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\android\\.gradle",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\android\\app\\.cxx",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\android\\app\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-audio\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-commerce\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-controller\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-downloads\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-visual\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-voice\\android\\.cxx",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-voice\\android\\build",
+      "kind": "directory",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\Show-Control-Clear-Show-Identity-2026-11-04.apk",
+      "kind": "installer",
+      "status": "planned"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\Show-Control-Responsive-Download-Cancel-2026-11-05.apk",
+      "kind": "installer",
+      "status": "planned"
+    }
+  ],
+  "preserved": [
+    "C:\\dev\\personal\\show-control-app\\music-library C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-music-library C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\src C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\tests C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\tools Source code, credentials, licenses, music backups and other projects"
+  ],
+  "beforeFreeC": 99440435200,
+  "createdUtc": "2026-11-05T14:19:27.2166199+00:00"
+}

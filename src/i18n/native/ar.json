@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "يتعرّف Show Control محليًا على عبارات الإشارات الخاصة بالفنان عندما يتم تجهيز التحكم الصوتي صراحةً.",
+    "NSBluetoothAlwaysUsageDescription": "يستخدم Show Control البلوتوث فقط لأزرار العرض التي يعيّنها الفنان، مثل Flic.",
+    "NSDocumentsFolderUsageDescription": "يستورد Show Control ملفاتك الصوتية إلى مساحة عرض خاصة على الجهاز.",
+    "NSLocalNetworkUsageDescription": "يتصل Show Control بالحاسوب المقترن لتجهيز الموسيقى وحفظها على هذا الجهاز."
+  }
+}

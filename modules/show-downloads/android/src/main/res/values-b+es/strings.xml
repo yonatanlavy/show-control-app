@@ -1,0 +1,5 @@
+<resources>
+  <string name="download_channel">Show Control · Descargas</string>
+  <string name="download_running">Descargando</string>
+  <string name="download_cancel">Cancelar</string>
+</resources>

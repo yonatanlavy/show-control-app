@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.showcontrol.recoveryviewprobe">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+  <application android:label="Recovery view QA" android:allowBackup="false" />
+  <instrumentation android:name="app.showcontrol.recoveryviewprobe.RecoveryViewProbe" android:targetPackage="app.showcontrol.working" android:functionalTest="true" android:handleProfiling="false" />
+</manifest>

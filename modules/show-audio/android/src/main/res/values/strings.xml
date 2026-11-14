@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">Low memory · Open Show Control to review</string>
+  <string name="show_audio_notification_low_battery">Low battery · Connect power to protect your show</string>
+  <string name="show_audio_notification_heat">Phone too hot · Cool the device to protect your show</string>
+  <string name="show_audio_notification_settings_unknown">Some protection settings unavailable · Review before your show</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">Show playback</string>
+  <string name="show_audio_notification_battery_warning">Battery settings may interrupt your show · Tap to review controls</string>
+  <string name="show_audio_notification_prepared">Show prepared · Controls ready in the background</string>
+  <string name="show_audio_notification_active">Show running · Tap to return to controls</string>
+  <string name="show_audio_notification_recovery">Audio stopped · Open Show Control to recover</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">Previous</string>
+  <string name="show_audio_notification_resume">Resume</string>
+  <string name="show_audio_notification_stop">Stop all</string>
+</resources>

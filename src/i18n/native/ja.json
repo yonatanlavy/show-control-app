@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "Show Controlは、音声操作を明示的に有効にしたときだけ、演者のキューフレーズを端末内で認識します。",
+    "NSBluetoothAlwaysUsageDescription": "Show Controlは、Flicなど演者が割り当てたショー用ボタンにのみBluetoothを使用します。",
+    "NSDocumentsFolderUsageDescription": "Show Controlは、音声を端末内の非公開ショーストレージに読み込みます。",
+    "NSLocalNetworkUsageDescription": "Show Controlはペアリングしたパソコンに接続し、音楽を準備してこの端末に保存します。"
+  }
+}

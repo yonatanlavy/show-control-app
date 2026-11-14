@@ -1,0 +1,11 @@
+{
+  "ytDlpVersion": "2026.08.19",
+  "ytDlpUrl": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp",
+  "ytDlpSha256": "1fa6733c37ea6fb51c99ad8fe785e7b7e5f3246c9b980230329d4fb72ed8d4d6",
+  "ytDlpBytes": 3072469,
+  "androidAdapter": "io.github.junkfood02.youtubedl-android:library:0.18.1",
+  "androidAdapterSha256": "579b5fb480892b1abc2b218c2089699d52759cc8d7ba256bf876453f0365faef",
+  "androidFfmpeg": "io.github.junkfood02.youtubedl-android:ffmpeg:0.18.1",
+  "androidFfmpegSha256": "0a87ffa6cf912b0fe76c1a99b9107f543ee2f247935fae2c71f0822eb7bc5f49",
+  "androidCommonSha256": "e0c0530bdbdf203e1598e900085d3582e27360731872872f3a67f23a9b24c0b5"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">Poca memoria · Apri Show Control per verificare</string>
+  <string name="show_audio_notification_low_battery">Batteria scarica · Collega l’alimentazione per lo spettacolo</string>
+  <string name="show_audio_notification_heat">Telefono troppo caldo · Raffreddalo per proteggere lo spettacolo</string>
+  <string name="show_audio_notification_settings_unknown">Protezione non verificata · Controlla prima dello spettacolo</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">Riproduzione spettacolo</string>
+  <string name="show_audio_notification_battery_warning">La batteria può interrompere lo spettacolo · Tocca per controllare</string>
+  <string name="show_audio_notification_prepared">Spettacolo pronto · Comandi pronti in background</string>
+  <string name="show_audio_notification_active">Spettacolo in corso · Tocca per tornare ai comandi</string>
+  <string name="show_audio_notification_recovery">Audio fermato · Apri Show Control per recuperare</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">Precedente</string>
+  <string name="show_audio_notification_resume">Riprendi</string>
+  <string name="show_audio_notification_stop">Ferma tutto</string>
+</resources>

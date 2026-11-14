@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">Мало памяти · Откройте Show Control для проверки</string>
+  <string name="show_audio_notification_low_battery">Низкий заряд · Подключите питание для защиты шоу</string>
+  <string name="show_audio_notification_heat">Телефон перегрет · Охладите устройство для защиты шоу</string>
+  <string name="show_audio_notification_settings_unknown">Настройки защиты недоступны · Проверьте перед шоу</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">Воспроизведение шоу</string>
+  <string name="show_audio_notification_battery_warning">Настройки батареи могут прервать шоу · Нажмите для проверки</string>
+  <string name="show_audio_notification_prepared">Шоу подготовлено · Управление готово в фоне</string>
+  <string name="show_audio_notification_active">Шоу идёт · Нажмите для возврата к управлению</string>
+  <string name="show_audio_notification_recovery">Аудио остановлено · Откройте Show Control для восстановления</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">Предыдущий</string>
+  <string name="show_audio_notification_resume">Продолжить</string>
+  <string name="show_audio_notification_stop">Остановить всё</string>
+</resources>

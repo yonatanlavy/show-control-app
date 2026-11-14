@@ -1,0 +1,25 @@
+{
+  "device": "Owned Android 15 emulator ShowControl_SingleButton_QA",
+  "apkSha256": "0085AED513FA4F444E2F760F96D32A001FDE4E35E4A72FAC239E124D9F4C716D",
+  "installedHashMatched": true,
+  "cancelledBeforeCommit": true,
+  "cancelledTemporarySpaceReleased": true,
+  "normalImporterCompleted": true,
+  "complete170HashSetObserved": true,
+  "newShowSongs": 170,
+  "libraryShowsAfter": 18,
+  "originalShow": "WF-Setup-20261104 / 8A366A35 / 3 cues",
+  "localNativePreview": "001 · Cipher started and deliberately stopped",
+  "relaunchPreservedLibrary": true,
+  "relaunchActiveAudioServices": 0,
+  "relaunchActiveMainMediaSessions": 0,
+  "settings": "Existing English / Dark Blue retained; optional theme-change test rejected by automatic approval review and not executed",
+  "customPreferencePreservation": "Real SQLite regression covers Hebrew/Purple Night/selection preservation",
+  "network": "Installer uses only APK assets and local validated archive import; no provider/network API in installation path",
+  "providers": 0,
+  "limits": [
+    "Emulator has no acoustic output",
+    "Physical devices, iOS, exact remotes, HDMI, screen readers, endurance and release signing remain separate"
+  ],
+  "verifiedUtc": "2026-11-05T14:19:23.8924526+00:00"
+}

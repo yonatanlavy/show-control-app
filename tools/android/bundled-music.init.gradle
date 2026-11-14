@@ -1,0 +1,17 @@
+gradle.beforeProject { project ->
+    project.plugins.withId('com.android.application') {
+        // The collection already uses a bounded stored ZIP. Avoid recompressing
+        // a 1.3 GB asset and permit streaming nested-archive verification.
+        project.android.androidResources.noCompress.add('zip')
+        project.android.externalNativeBuild.cmake.buildStagingDirectory = new File('C:/dev/sc-apk-cxx')
+        project.android.defaultConfig.externalNativeBuild.cmake.arguments.add('-DCMAKE_OBJECT_PATH_MAX=240')
+    }
+}
+
+gradle.projectsEvaluated {
+    def application = gradle.rootProject.findProject(':app')
+    if (application == null) return
+    assert application.android.bundle.language.enableSplit == false : 'Offline languages must remain bundled'
+    assert application.android.defaultConfig.resourceConfigurations.contains('iw') : 'Hebrew resources must remain available'
+    assert application.android.androidResources.noCompress.contains('zip') : 'Included archive must be stored without outer compression'
+}

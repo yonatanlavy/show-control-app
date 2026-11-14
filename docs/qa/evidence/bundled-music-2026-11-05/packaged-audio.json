@@ -1,0 +1,16 @@
+{
+  "apk": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\Show-Control-All-170-Songs-2026-11-05.apk",
+  "bytes": 1483274788,
+  "sha256": "0085aed513fa4f444e2f760f96d32a001fde4e35e4a72fac239e124d9f4c716d",
+  "archiveSha256": "8bb7f7c3bf932162f8615ea66e7c2452a5a21782ce838b0bcde30b2c4b691101",
+  "audioFiles": 170,
+  "distinctAudioHashes": 170,
+  "audioBytes": 1326556245,
+  "artworkFiles": 20,
+  "playlists": 20,
+  "payloadCrcAndShaChecks": 190,
+  "allSongNotesPresent": true,
+  "attributionAssetsMatch": true,
+  "outerArchiveStored": true,
+  "boundedStreamingVerification": true
+}

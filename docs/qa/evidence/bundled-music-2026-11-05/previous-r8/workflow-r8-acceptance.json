@@ -1,0 +1,109 @@
+{
+  "scope": "Bounded pending Android acceptance and delivery, explicitly approved after goal clear",
+  "device": "Owned ShowControl_SingleButton_QA / emulator-5564 / Android 15",
+  "apkSha256": "E1C8408B3F7E9FC77EA0B9DC9096178651FB19F31687CEE2471A179661EEBD61",
+  "installedHashMatched": true,
+  "softwareChecks": {
+    "types": 0,
+    "lint": 0,
+    "tests": 0,
+    "architecture": 0,
+    "translations": 0,
+    "tokens": 0,
+    "nativeAudio": 0,
+    "nativeDownloads": 0,
+    "nativeInitialization": 0,
+    "passed": 1615,
+    "failed": 0,
+    "suites": 87,
+    "finishedUtc": "2026-11-05T13:47:04.0410977+02:00"
+  },
+  "sourceFrozenInputs": [
+    {
+      "path": "modules/show-downloads/android/src/main/java/app/showcontrol/downloads/DownloadRuntime.kt",
+      "sha256": "9BAC1CC9ABC8FA1F84320831DE950EBAD6D3F8E4AC7F69AB382ADFDAB4951BF9"
+    },
+    {
+      "path": "tests/native/download-initialization-source-regression.mjs",
+      "sha256": "368555D6FBD4FACB2C7FF9708B219B6A5E84EDB148DDD391C62B57DCE711CADD"
+    },
+    {
+      "path": "src/music/downloads.ts",
+      "sha256": "8479357437C689F11D4D8E51D33EB8D5BA9C45C5141C74323A1082DAB6246ABF"
+    },
+    {
+      "path": "tests/storage/music-downloads.test.ts",
+      "sha256": "C0C58B212486FECB56C0EE24A10E8C972148F7F41082728CFC2DD4F75E6DA635"
+    },
+    {
+      "path": "src/i18n/music-messages.ts",
+      "sha256": "E032BBA008973C703E136FB8CAF24089C05209700600A48AE72F56360FD0344D"
+    },
+    {
+      "path": "src/i18n/music-translations.ts",
+      "sha256": "FA21FF67DEB961A0C6C913738DDED016F98DAAE37A91821122AA84C0F7764243"
+    }
+  ],
+  "unchangedR7UiSourceCount": 9,
+  "offlineGuidance": true,
+  "classifiedLookupFailure": true,
+  "mountedRetry": true,
+  "activeSearchCancel": true,
+  "lateErrorAbsent": true,
+  "publicBeepDownloadAndAutoAttachment": "R8-Offline-QA-20261105 only, 1 cue beep_short",
+  "originalShow": "WF-Setup-20261104 / 8A366A35 / 3 cues",
+  "libraryShows": 17,
+  "transportStates": [
+    {
+      "go": "GO · WF-Draft-Should-Stay",
+      "voices": "Active sounds: 0 / 8",
+      "name": "wf-r8-finish-arm",
+      "phase": "Ready"
+    },
+    {
+      "go": "Resume · WF-Draft-Should-Stay",
+      "voices": "Active sounds: 1 / 8",
+      "name": "wf-r8-finish-paused",
+      "phase": "Paused"
+    },
+    {
+      "go": "Resume · WF-Draft-Should-Stay",
+      "voices": "Active sounds: 1 / 8",
+      "name": "wf-r8-finish-resume-paused",
+      "phase": "Paused"
+    },
+    {
+      "go": "GO · WF-Draft-Should-Stay",
+      "voices": "Active sounds: 0 / 8",
+      "name": "wf-r8-finish-panic-return",
+      "phase": "Ready"
+    }
+  ],
+  "nativeOwnPlayingState": true,
+  "panicZeroVoices": true,
+  "stableGoBounds": "[42,1582][1038,1855]",
+  "stablePanicBounds": "[556,1403][1038,1550]",
+  "silentIdleForceStopRelaunch": true,
+  "finalActiveAppServices": 0,
+  "finalActiveAppMediaSessions": 0,
+  "finalNetwork": "Original preferences 0/1/1; validated default 103",
+  "display": "1080x2400, density 420, font 1.0, portrait 0, auto-rotate 1",
+  "productionChangesThisFinalContinuation": 0,
+  "providers": 0,
+  "unresolved": [
+    "Stale global Finder Retry after leaving its owning screen",
+    "Prior slow starts and historical app/focus incident cause unresolved"
+  ],
+  "externalGates": [
+    "Physical Android/OEM and audio",
+    "iOS/Xcode",
+    "Exact remotes/Flic",
+    "HDMI",
+    "Screen readers",
+    "Cross-device restore",
+    "Endurance",
+    "Production signing and store/pilot acceptance"
+  ],
+  "goalRecreated": false,
+  "checkedUtc": "2026-11-05T13:01:19.9963237+00:00"
+}

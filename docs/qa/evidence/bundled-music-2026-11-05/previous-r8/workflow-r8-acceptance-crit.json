@@ -1,0 +1,24 @@
+{
+  "scope": "Current final continuation: installed Run/relaunch acceptance and two report updates",
+  "requestedOutcome": "Finish pending checks, publish exact Android test APK link and stop",
+  "sourceCodeChanged": false,
+  "docs": [
+    {
+      "path": "docs/download-cancel-responsiveness-2026-11-05.md",
+      "sha256": "7A0686AEF4EB535DFB57C4797BCD0F397E58265D7A72869C50EF851532C76975"
+    },
+    {
+      "path": "docs/single-button-workflow-audit-2026-11-04.md",
+      "sha256": "F3EBB72DB6E216E71290FBC87F600A2175D236594C8DF215ECE550BCDE85ED98"
+    }
+  ],
+  "deviceReceipt": ".native-check/workflow-r8-acceptance.json",
+  "checks": "Earlier nine passing check groups carry forward against exact six frozen inputs and nine unchanged R7 UI sources; document links/status/limitations checked now",
+  "verification": "Download and native transport acceptance source XML/media/service evidence validated; screenshots inspected",
+  "scopeReview": "No new feature, schema, default, AI request, signing or geometry change",
+  "claims": "Android emulator test evidence only; known recoverable stale-owner Retry issue and external gates explicitly retained",
+  "goal": "Cleared; no new goal created",
+  "inScopeCriticalOrHighFinding": "None introduced by current documentation/device continuation",
+  "remaining": "Separate reported work; no automatic follow-up",
+  "closedUtc": "2026-11-05T13:02:13.2977974+00:00"
+}

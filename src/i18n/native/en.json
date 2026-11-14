@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "Show Control recognizes performer-owned cue phrases locally while voice control is explicitly armed.",
+    "NSBluetoothAlwaysUsageDescription": "Show Control uses Bluetooth only for performer-assigned show buttons such as Flic.",
+    "NSDocumentsFolderUsageDescription": "Show Control imports your audio into private on-device show storage.",
+    "NSLocalNetworkUsageDescription": "Show Control connects to your paired computer to prepare music and save it on this device."
+  }
+}

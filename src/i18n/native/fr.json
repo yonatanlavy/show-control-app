@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "NSMicrophoneUsageDescription": "Show Control reconnaît localement les phrases de repère de l'artiste lorsque la commande vocale est explicitement armée.",
+    "NSBluetoothAlwaysUsageDescription": "Show Control utilise Bluetooth uniquement pour les boutons de spectacle affectés par l'artiste, comme Flic.",
+    "NSDocumentsFolderUsageDescription": "Show Control importe votre audio dans le stockage privé des spectacles sur cet appareil.",
+    "NSLocalNetworkUsageDescription": "Show Control se connecte à votre ordinateur associé pour préparer et enregistrer la musique sur cet appareil."
+  }
+}

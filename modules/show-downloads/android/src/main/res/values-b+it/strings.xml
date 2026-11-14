@@ -1,0 +1,5 @@
+<resources>
+  <string name="download_channel">Show Control · Download</string>
+  <string name="download_running">Download in corso</string>
+  <string name="download_cancel">Annulla</string>
+</resources>

@@ -1,0 +1,11 @@
+# Remote control refinement — 14 October 2026
+
+The supplied OMS image is a visual reference. Implement a premium native remote hub using the existing themes, typography and reusable controls: an original remote diagram, four media action rows, separated panic guidance, protocol picker, pairing guidance, learned bindings and a silent test dashboard. No decorative animation; controls remain at least 48 dp and translate in all ten languages.
+
+Standard media buttons, foreground HID keyboards/pedals/presenters, custom Bluetooth HID devices and the existing Flic 2 adapter are the supported input paths. Arbitrary vendor BLE services, camera shutter volume keys, MIDI modes, mouse-only modes and USB-only presenters are not interchangeable with these protocols. Named vendor examples are setup guidance, not hardware certification. iOS coalesces keyboards into one identity; media controls expose a system identity rather than per-remote attribution.
+
+Native audio owns a process-local admission gate. Learning/testing may begin only without an armed snapshot, suppresses native dispatch, and ends on background, module teardown or preparation. Native media callbacks also consult this gate and report diagnostic inputs. Live panic and immediate stop retain priority. Held keys, releases, queued reconnect events and invalid/stale inputs never become learned bindings or test passes.
+
+Persist exact adapter/device/input bindings using existing transactional storage. A button replacement is explicit, removals require confirmation, and live configuration is blocked. Capture the show identity and eligible diagnostic press; navigation or a different show cannot silently save to a new target. Testing records individual resolved actions and a ten-press count with no audio, distinguishes unknown inputs, and never calls a remote-side acknowledgement a successful signal.
+
+Verify pure mapping/eligibility cases, setup UI lifecycle, native routing/suppression, repeated presses, cancellation and profile changes. Run type, lint, unit, architecture, translation/token checks and Android native build. Inspect English/Hebrew RTL, large text and portrait/landscape in the Android emulator. Record device/OS/hardware gates separately; Windows cannot validate iOS compilation or real Bluetooth hardware.

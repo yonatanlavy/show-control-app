@@ -1,0 +1,15 @@
+{
+  "types": 0,
+  "lint": 0,
+  "tests": 0,
+  "architecture": 0,
+  "translations": 0,
+  "tokens": 0,
+  "nativeAudio": 0,
+  "nativeDownloads": 0,
+  "nativeInitialization": 0,
+  "passed": 1615,
+  "failed": 0,
+  "suites": 87,
+  "finishedUtc": "2026-11-05T11:47:04.0410977+00:00"
+}

@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'expo-module-gradle-plugin'
+
+group = 'app.showcontrol.audio'
+version = '0.1.0'
+
+android {
+  namespace 'app.showcontrol.audio'
+
+  defaultConfig {
+    minSdkVersion 24
+    versionCode 1
+    versionName '0.1.0'
+  }
+
+  lint {
+    abortOnError true
+    warningsAsErrors true
+    // Versions are deliberately pinned; upgrades need transport/device regression evidence.
+    disable 'GradleDependency'
+  }
+}
+
+def media3Version = '1.10.1'
+
+dependencies {
+  implementation "androidx.media3:media3-common:${media3Version}"
+  implementation "androidx.media3:media3-exoplayer:${media3Version}"
+  implementation "androidx.media3:media3-session:${media3Version}"
+}

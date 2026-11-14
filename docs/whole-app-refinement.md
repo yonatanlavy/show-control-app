@@ -1,0 +1,32 @@
+# Whole-app non-AI refinement · 14 October 2026
+
+Continue the owner-approved non-AI pass with a coherent visual and workflow refinement. Preserve existing shows/media, native command ownership, immutable prepared sessions, fixed Run GO/panic geometry, three semantic themes, ten languages and no decorative animation. No provider requests, secret reads, dependency or persisted-schema change.
+
+1. Reuse a responsive metric grid for song settings, native rehearsal timings and backup results. Keep clocks direction-neutral and large-text values intact.
+2. Add a shared playlist overview with cue/Hit counts and audio duration adjusted for trim/rate. Clearly distinguish a single audio pass from an operator-timed looping show.
+3. Correct rehearsal completion: exhausted native selection cannot imply restarting the first song. Disable ordinary commands while exit is pending, retaining Stop/Panic. Explain completion and retain deliberate silent selection.
+   - Reset the session-owned stopwatch without remounting routes and cancelling exit callbacks; refresh drag bindings when the clock owner changes.
+   - Reconcile schema-v2 legacy cue stacks from native state and route their GO through the native pointer. Publish matching Android/iOS legacy selection, automatic-follow and exhaustion state; retain existing cue-stack timing and schema-v1 command compatibility.
+4. Clarify editor preview scope: delay and overlap use full-sequence rehearsal, rather than misleading isolated preview buttons. Looping songs can crossfade on deliberate advancement; retain actual incoming-autoplay/legacy restrictions.
+5. Reduce audience setup density and repeated headings. Bring connection/enable/test controls forward, keep fallback preview clear, and disclose cable/behavior guidance progressively.
+6. Improve backup progress/results with measured percentages and consistent counts; preserve cancellation, saved-archive retry and truthful saved/share outcomes.
+7. Give help an easy-to-scan hierarchy with progressive walkthroughs. Keep existing optional tools and safety guidance.
+8. Verify types, lint, unit/architecture, translations, tokens and final bundle; exercise refined screens on the Android development emulator, including RTL, large text and stable live controls. Promote only this turn's scoped files and record evidence. iOS builds and physical hardware gates remain open.
+
+## Applied refinements and acceptance evidence
+
+The editor, playlist overview, Rehearsal and backup results now share responsive measurement cards. Delay and overlap no longer offer misleading isolated previews. Loop guidance explains deliberate GO into an eligible incoming song. Display connection/test controls appear before the optional cable illustration. Help uses expandable walkthroughs, navigation no longer produces generic success toasts, and the shared persistent failure notice replaces duplicate page warnings while critical sessions retain their inline warnings.
+
+Testing found and corrected three behavioral defects: session-clock resets remounted routes and cancelled pending exit navigation; schema-v2 legacy cue stacks could display a different pointer from the native remote owner; and large-text stacked cards retained narrow widths. The clock now resets its store without remounting routes, legacy touch/remote commands use the same native pointer, and stacked cards explicitly fill their container. Native progress clears on song/session replacement instead of showing an old song's cursor. Drafts, existing tuning and the music library remain intact.
+
+Automated checks on the final source: TypeScript, lint with zero warnings, all **380 tests across 37 suites** (including architecture checks), token generation consistency, and **600 translated messages plus native OS copy in all ten languages** passed. Android audio-module lint and the development APK build passed; the production Android bundle exported successfully. The final shared-card style correction received another complete automated run and production export. No AI provider requests or secret reads were made.
+
+Actual Android API-35 native regressions used an ephemeral synthetic managed WAV at −96 dB, with an unprepared-owner gate and silent cleanup. [Preview regression](../tests/native/preview-regression.js) passed five assertion groups, [OMS transport regression](../tests/native/oms-transport-regression.js) passed eight, and [legacy transport regression](../tests/native/legacy-transport-regression.js) passed four. Legacy evidence covers first-cue selection, silent SELECT/Previous, paused GO resume, audio/wait automatic following, group voices, panic and final-song no-wrap. These are native state/event checks on a headless emulator, **not physical acoustic evidence**. The QA harness uses a direct preparation promise to avoid the nested async helper discrepancy observed through the Hermes inspector.
+
+Android UI evidence includes English editor/playlist overview, silent Rehearsal preparation and exit to Builder, display hardware absent/test disabled, compact Help, Dark Blue and Purple Night, Hebrew RTL at **150% text**, and the corrected full-width cards. The smaller timer moves horizontally, retains 00:23 and its position through Run → Recovery → Run, and retains 00:06 through landscape → portrait without source reload. At 1080×2400, portrait GO remains `[42,1582][1038,1855]` and panic remains `[556,1403][1038,1550]`, matching the preceding pass. Dev-menu overlays were excluded from product-layout judgments. Changes were promoted as 29 scoped source files with matching stage/original hashes; test preferences were restored and the engine was left unprepared and silent.
+
+Local detailed logs, native results, screenshots/UI trees and the scoped promotion ledger are in the staging checkout's ignored `.native-check/whole-*` files. Prior [non-AI acceptance evidence](non-ai-verification.md) records the wider 34-edge-case/10-combination audit. This refinement preserves those gates and does not replace them with mocks.
+
+## Remaining evidence gates
+
+iOS compilation/Xcode, physical Android/iOS audio and HDMI, external microphone/routes, exact remote/Flic hardware and the licensed Flic iOS integration, screen-reader operation, full phone/tablet/OS coverage, cross-platform restore and two-hour runs remain unverified. Complete translation dictionaries and EN/HE emulator checks do not prove native linguistic/accessibility review of every locale. No complete hardware parity, zero-bug guarantee or store readiness is claimed.

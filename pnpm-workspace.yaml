@@ -1,0 +1,16 @@
+packages:
+  - '.'
+
+# pnpm 11 reads installation settings here, rather than from .npmrc.
+# Short hoisted paths keep Windows Android prefab/CMake paths within limits.
+nodeLinker: hoisted
+ignoreScripts: true
+# Installation is explicit; checks/start must not replace Metro's dependency tree.
+verifyDepsBeforeRun: false
+allowBuilds:
+  '@sentry/cli': false
+  unrs-resolver: false
+
+# Expo PR #51052 remains necessary in the reviewed 57.0.24 source.
+patchedDependencies:
+  expo-modules-core@57.0.24: patches/expo-modules-core@57.0.24.patch

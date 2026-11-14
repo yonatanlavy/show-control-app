@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="show_audio_notification_memory">メモリ不足 · Show Control を開いて確認</string>
+  <string name="show_audio_notification_low_battery">電池残量低下 · 公演のため電源に接続</string>
+  <string name="show_audio_notification_heat">端末が高温 · 公演のため端末を冷却</string>
+  <string name="show_audio_notification_settings_unknown">保護設定を確認できません · 公演前に確認</string>
+  <string name="show_audio_notification_title">Show Control</string>
+  <string name="show_audio_notification_channel">公演の再生</string>
+  <string name="show_audio_notification_battery_warning">電池設定で公演が中断する可能性 · タップして確認</string>
+  <string name="show_audio_notification_prepared">公演準備完了 · バックグラウンド操作待機中</string>
+  <string name="show_audio_notification_active">公演進行中 · タップして操作に戻る</string>
+  <string name="show_audio_notification_recovery">音声停止 · Show Control を開いて復旧</string>
+  <string name="show_audio_notification_go">GO</string>
+  <string name="show_audio_notification_previous">前へ</string>
+  <string name="show_audio_notification_resume">再開</string>
+  <string name="show_audio_notification_stop">すべて停止</string>
+</resources>

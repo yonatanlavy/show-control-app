@@ -1,0 +1,68 @@
+{
+  "artifact": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\Show-Control-Responsive-Download-Cancel-2026-11-05.apk",
+  "bytes": 154888601,
+  "sha256": "E1C8408B3F7E9FC77EA0B9DC9096178651FB19F31687CEE2471A179661EEBD61",
+  "status": "Android test APK; scoped installed acceptance completed",
+  "acceptance": ".native-check/workflow-r8-acceptance.json",
+  "review": ".native-check/workflow-r8-acceptance-crit.json",
+  "canonicalReport": "C:/dev/personal/show-control-app/docs/download-cancel-responsiveness-2026-11-05.md",
+  "sources": [
+    {
+      "path": "modules/show-downloads/android/src/main/java/app/showcontrol/downloads/DownloadRuntime.kt",
+      "sha256": "9BAC1CC9ABC8FA1F84320831DE950EBAD6D3F8E4AC7F69AB382ADFDAB4951BF9",
+      "canonicalMatched": true
+    },
+    {
+      "path": "tests/native/download-initialization-source-regression.mjs",
+      "sha256": "368555D6FBD4FACB2C7FF9708B219B6A5E84EDB148DDD391C62B57DCE711CADD",
+      "canonicalMatched": true
+    },
+    {
+      "path": "src/music/downloads.ts",
+      "sha256": "8479357437C689F11D4D8E51D33EB8D5BA9C45C5141C74323A1082DAB6246ABF",
+      "canonicalMatched": true
+    },
+    {
+      "path": "tests/storage/music-downloads.test.ts",
+      "sha256": "C0C58B212486FECB56C0EE24A10E8C972148F7F41082728CFC2DD4F75E6DA635",
+      "canonicalMatched": true
+    },
+    {
+      "path": "src/i18n/music-messages.ts",
+      "sha256": "E032BBA008973C703E136FB8CAF24089C05209700600A48AE72F56360FD0344D",
+      "canonicalMatched": true
+    },
+    {
+      "path": "src/i18n/music-translations.ts",
+      "sha256": "FA21FF67DEB961A0C6C913738DDED016F98DAAE37A91821122AA84C0F7764243",
+      "canonicalMatched": true
+    },
+    {
+      "path": "docs/download-cancel-responsiveness-2026-11-05.md",
+      "sha256": "7A0686AEF4EB535DFB57C4797BCD0F397E58265D7A72869C50EF851532C76975",
+      "canonicalMatched": true
+    },
+    {
+      "path": "docs/single-button-workflow-audit-2026-11-04.md",
+      "sha256": "F3EBB72DB6E216E71290FBC87F600A2175D236594C8DF215ECE550BCDE85ED98",
+      "canonicalMatched": true
+    }
+  ],
+  "productionChangedDuringFinalAcceptance": false,
+  "noAutomaticGoalCreated": true,
+  "knownRemaining": [
+    "Stale global Finder Retry after leaving its owning screen",
+    "Prior slow starts and historical app/focus incident cause unresolved"
+  ],
+  "externalGates": [
+    "Physical Android/OEM and audio",
+    "iOS/Xcode",
+    "Exact remotes/Flic",
+    "HDMI",
+    "Screen readers",
+    "Cross-device restore",
+    "Endurance",
+    "Production signing and store/pilot acceptance"
+  ],
+  "deliveredUtc": "2026-11-05T13:02:54.9524084+00:00"
+}

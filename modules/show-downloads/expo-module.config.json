@@ -1,0 +1,1 @@
+{"platforms":["android","ios"],"android":{"modules":["app.showcontrol.downloads.ShowDownloadsModule"]},"ios":{"modules":["ShowDownloadsModule"],"appDelegateSubscribers":["ShowDownloadAppDelegateSubscriber"]}}

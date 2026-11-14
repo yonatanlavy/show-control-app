@@ -1,0 +1,18 @@
+{
+  "activeVoiceCount": 1,
+  "countdownRemainingMs": 0,
+  "currentCueId": "9c5228cd-fd25-4bdd-93f6-7fd5185e0058",
+  "currentCueIndex": 0,
+  "generation": 3,
+  "nativeCommandId": 1,
+  "nextCueId": "106266e4-0b6f-423d-942e-85a50265f703",
+  "nextCueIndex": 1,
+  "phase": "playing",
+  "playbackRate": 1,
+  "revisionId": "f5e11e4c-2b8b-45e4-b04a-07e6e343116e",
+  "selectedCueId": "9c5228cd-fd25-4bdd-93f6-7fd5185e0058",
+  "setId": "653620ee-f710-4458-b49b-99b773b6363e",
+  "showId": "3d504d65-b87e-421e-835c-7aeb3e93f8a2",
+  "transportMode": "oms",
+  "type": "RUN_STATE"
+}

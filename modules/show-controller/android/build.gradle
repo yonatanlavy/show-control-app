@@ -1,0 +1,24 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'app.showcontrol.controller'
+version = '0.1.0'
+
+android {
+  namespace 'app.showcontrol.controller'
+  defaultConfig {
+    versionCode 1
+    versionName '0.1.0'
+  }
+}
+
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+  implementation project(':show-audio')
+  implementation 'com.github.50ButtonsEach:flic2lib-android:2.0.1'
+}

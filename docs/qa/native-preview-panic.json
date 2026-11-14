@@ -1,0 +1,111 @@
+[
+  {
+    "armedPreviewRefused": true,
+    "failure": {
+      "code": "DECODE_FAILED",
+      "message": "A local cue could not be decoded.",
+      "type": "PREVIEW_ERROR"
+    },
+    "playing": {
+      "activeVoiceCount": 1,
+      "countdownRemainingMs": 0,
+      "currentCueId": "a",
+      "currentCueIndex": 0,
+      "generation": 6,
+      "nativeCommandId": 1,
+      "nextCueId": "",
+      "nextCueIndex": 1,
+      "phase": "playing",
+      "playbackRate": 1,
+      "revisionId": "preview-revision",
+      "selectedCueId": "a",
+      "setId": "preview-isolation-set",
+      "showId": "preview-isolation",
+      "transportMode": "oms",
+      "type": "RUN_STATE"
+    },
+    "preparedState": {
+      "activeVoiceCount": 0,
+      "countdownRemainingMs": 0,
+      "currentCueId": "",
+      "currentCueIndex": -1,
+      "generation": 6,
+      "nativeCommandId": 0,
+      "nextCueId": "",
+      "nextCueIndex": 1,
+      "phase": "ready",
+      "playbackRate": 1,
+      "revisionId": "preview-revision",
+      "selectedCueId": "a",
+      "setId": "preview-isolation-set",
+      "showId": "preview-isolation",
+      "transportMode": "oms",
+      "type": "RUN_STATE"
+    }
+  },
+  [
+    {
+      "case": "ready",
+      "state": {
+        "activeVoiceCount": 0,
+        "countdownRemainingMs": 0,
+        "currentCueId": "",
+        "currentCueIndex": -1,
+        "generation": 12,
+        "nativeCommandId": 1,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "ready",
+        "playbackRate": 1,
+        "revisionId": "panic-revision",
+        "selectedCueId": "a",
+        "setId": "panic-set",
+        "showId": "silent-panic",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "case": "paused-voice",
+      "state": {
+        "activeVoiceCount": 0,
+        "countdownRemainingMs": 0,
+        "currentCueId": "",
+        "currentCueIndex": -1,
+        "generation": 13,
+        "nativeCommandId": 5,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "ready",
+        "playbackRate": 1,
+        "revisionId": "panic-revision",
+        "selectedCueId": "a",
+        "setId": "panic-set",
+        "showId": "silent-panic",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    },
+    {
+      "case": "paused-countdown",
+      "state": {
+        "activeVoiceCount": 0,
+        "countdownRemainingMs": 0,
+        "currentCueId": "",
+        "currentCueIndex": -1,
+        "generation": 16,
+        "nativeCommandId": 9,
+        "nextCueId": "",
+        "nextCueIndex": 1,
+        "phase": "ready",
+        "playbackRate": 1,
+        "revisionId": "panic-revision",
+        "selectedCueId": "a",
+        "setId": "panic-set",
+        "showId": "silent-panic",
+        "transportMode": "oms",
+        "type": "RUN_STATE"
+      }
+    }
+  ]
+]

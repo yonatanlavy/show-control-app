@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.showcontrol.libraryrecoveryprobe">
+  <uses-sdk android:minSdkVersion="35" android:targetSdkVersion="36" />
+  <application android:label="Show Control isolated library audit" android:allowBackup="false" />
+  <instrumentation android:name="app.showcontrol.libraryrecoveryprobe.LibraryRecoveryProbe" android:targetPackage="app.showcontrol.working" android:functionalTest="true" />
+</manifest>

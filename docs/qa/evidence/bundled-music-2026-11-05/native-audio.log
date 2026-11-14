@@ -1,0 +1,23 @@
+PASS primary-only seek isolates same-ID Hit, outgoing voice and unrelated cue; pause/rate unchanged
+PASS Hit-only cue refuses without moving audio
+PASS stale primary identity refuses without fallback to cue ID
+PASS matching voice ID without main ownership refuses
+PASS different current cue refuses and preserves its independent Hit
+PASS source trim bounds and millisecond precision synchronize the primary envelope only
+PASS absent trim-out uses source duration at unchanged 0.7x rate
+{
+  "androidPath": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-audio\\android\\src\\main\\java\\app\\showcontrol\\audio\\ShowAudioService.kt",
+  "iosPath": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Computer Use\\show-control-oms\\modules\\show-audio\\ios\\ShowAudioModule.swift",
+  "checks": [
+    {
+      "platform": "Android",
+      "result": "pass",
+      "evidence": "Production seek method compiled and executed on JVM; playback handles are observable doubles"
+    },
+    {
+      "platform": "iOS",
+      "result": "pass",
+      "evidence": "Actual selection closure policy executed, including isolated preview; inactive refusal and dispatch scope inspected. Swift/AVFoundation compilation not available on this Windows host"
+    }
+  ]
+}
